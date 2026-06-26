@@ -302,7 +302,7 @@ body:not(.dark) .dark-toggle .moon {
 }
 .row-main {
   display: grid;
-  grid-template-columns: auto auto 1fr auto;
+  grid-template-columns: auto auto 1fr auto auto;
   gap: 0.5rem;
   padding: 0.5rem 24px;
   align-items: center;
@@ -380,9 +380,81 @@ body:not(.dark) .dark-toggle .moon {
 .row-toggle {
   color: var(--neutral-600);
   transition: transform 0.15s ease-in-out;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
 }
 .row-toggle.open {
   transform: rotate(180deg);
+}
+
+.row-details {
+  display: none;
+  max-height: 300px;
+  overflow-y: auto;
+  background: var(--batch-bg);
+}
+.row-details.open {
+  display: block;
+}
+.row-details::-webkit-scrollbar {
+  width: 6px;
+}
+.row-details::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 3px;
+}
+.row-details-inner {
+  padding: 0.5rem 24px 0.75rem;
+  border-top: 1px solid var(--border-color);
+}
+.sem-group {
+  margin-bottom: 0.75rem;
+}
+.sem-group:last-child {
+  margin-bottom: 0;
+}
+.sem-header {
+  font-family: monospace;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--neutral-600);
+  margin-bottom: 0.25rem;
+  padding-bottom: 0.125rem;
+  border-bottom: 1px dashed var(--border-color);
+}
+.batch-item {
+  font-family: monospace;
+  font-size: 0.75rem;
+  color: var(--neutral-700);
+  padding: 0.125rem 0 0.125rem 0.75rem;
+}
+.batch-item .type-badge {
+  display: inline-block;
+  font-size: 0.625rem;
+  padding: 0 0.375rem;
+  border-radius: 3px;
+  margin-right: 0.375rem;
+  background: var(--neutral-400);
+  color: var(--slate-900);
+}
+.type-badge.oe {
+  background: var(--yellow-600);
+  color: var(--yellow-100);
+}
+.type-badge.st {
+  background: var(--blue-900);
+  color: var(--slate-200);
+}
+.type-badge.compulsory {
+  background: var(--green-600);
+  color: var(--emerald-100);
+}
+.no-batches {
+  font-family: monospace;
+  font-size: 0.75rem;
+  color: var(--neutral-500);
+  font-style: italic;
 }
 
 .section {
@@ -475,6 +547,9 @@ body:not(.dark) .dark-toggle .moon {
     display: none;
   }
   .grip {
+    display: none;
+  }
+  .row-toggle {
     display: none;
   }
   .branch-bar {
@@ -795,6 +870,41 @@ let focusedRow = 0;
 // ── Helpers ──
 let filtered = [];
 let dragSource = null;
+let expandedIndex = null;
+
+function getTypeClass(type) {
+  const t = type.toLowerCase();
+  if (t.includes("open elective")) return "oe";
+  if (t.includes("compulsory")) return "compulsory";
+  if (t.includes("st")) return "st";
+  return "";
+}
+
+function renderBatchDetails(course) {
+  const batches = course.batches;
+  if (!batches || batches.length === 0) {
+    return '<div class="no-batches">No previous batch data available.</div>';
+  }
+  const grouped = {};
+  for (const b of batches) {
+    const sem = b.semester;
+    if (!grouped[sem]) grouped[sem] = [];
+    grouped[sem].push(b);
+  }
+  const sortedSems = Object.keys(grouped).sort().reverse();
+  let html = "";
+  for (const sem of sortedSems) {
+    const group = grouped[sem];
+    html += '<div class="sem-group">';
+    html += `<div class="sem-header">${sem} (${group.length} batch${group.length > 1 ? "es" : ""})</div>`;
+    for (const b of group) {
+      const typeClass = getTypeClass(b.type);
+      html += `<div class="batch-item"><span class="type-badge ${typeClass}">${b.type}</span> ${b.batch}</div>`;
+    }
+    html += "</div>";
+  }
+  return html;
+}
 
 function getSection(code) {
   const s = courseList.sections;
@@ -867,7 +977,7 @@ function render() {
       if (liked) rowClass += " liked";
       else if (notElig || disliked) rowClass += " disliked";
 
-      html += `<div class="row${rowClass ? " " + rowClass : ""}" data-code="${c.code}">`;
+      html += `<div class="row${rowClass ? " " + rowClass : ""}" data-code="${c.code}" data-index="${c.index}">`;
       html += `  <div class="row-main">`;
       html += `    <div class="grip" draggable="true" data-grip="${c.code}">`;
       html += `      <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><circle cx="9" cy="5" r="1.5"/><circle cx="15" cy="5" r="1.5"/><circle cx="9" cy="12" r="1.5"/><circle cx="15" cy="12" r="1.5"/><circle cx="9" cy="19" r="1.5"/><circle cx="15" cy="19" r="1.5"/></svg>`;
@@ -878,10 +988,16 @@ function render() {
       html += `      <div class="row-meta">${c.department}${c.professor && c.professor !== "-" ? " &middot; " + c.professor : ""} &middot; ${c.credits} credits${c.ltp && c.ltp !== "-" ? " &middot; " + c.ltp : ""}</div>`;
       html += `      <div class="not-eligible ${notElig ? "show" : ""}">Not eligible for your branch</div>`;
       html += `    </div>`;
+      html += `    <div class="row-toggle ${expandedIndex === c.index ? "open" : ""}">`;
+      html += `      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>`;
+      html += `    </div>`;
       html += `    <div class="vote-group">`;
       html += `      <button class="vote-btn ${liked ? "liked" : ""}" data-vote="like" data-code="${c.code}">+</button>`;
       html += `      <button class="vote-btn ${disliked || notElig ? "disliked" : ""}" data-vote="dislike" data-code="${c.code}">&minus;</button>`;
       html += `    </div>`;
+      html += `  </div>`;
+      html += `  <div class="row-details ${expandedIndex === c.index ? "open" : ""}">`;
+      html += `    <div class="row-details-inner">${renderBatchDetails(c)}</div>`;
       html += `  </div>`;
       html += `</div>`;
     }
@@ -919,6 +1035,15 @@ function render() {
       if (prefs.dislikes.length === 0) delete prefs.dislikes;
       savePrefs(prefs);
       sortByPrefs();
+      render();
+    });
+  });
+
+  // Row toggle expand
+  content.querySelectorAll(".row").forEach(el => {
+    el.addEventListener("click", () => {
+      const idx = parseInt(el.dataset.index, 10);
+      expandedIndex = expandedIndex === idx ? null : idx;
       render();
     });
   });
@@ -1003,11 +1128,13 @@ branchSelect.addEventListener("change", () => {
   prefs.branch = branchSelect.value || undefined;
   if (!prefs.branch) delete prefs.branch;
   savePrefs(prefs);
+  sortByPrefs();
   render();
 });
 
 // ── Search ──
 searchInput.addEventListener("input", () => {
+  expandedIndex = null;
   focusedRow = 0;
   render();
 });
@@ -1075,7 +1202,15 @@ document.addEventListener("keydown", (e) => {
     render();
     const row = content.querySelector(".row.focused");
     if (row) row.scrollIntoView({ block: "nearest" });
-  } else if (e.key === "Enter" || e.key === " ") {
+  } else if (e.key === "Enter") {
+    if (filtered.length === 0) return;
+    e.preventDefault();
+    const c = filtered[focusedRow];
+    expandedIndex = expandedIndex === c.index ? null : c.index;
+    render();
+    const row = content.querySelector(".row.focused");
+    if (row) row.scrollIntoView({ block: "nearest" });
+  } else if (e.key === " ") {
     if (filtered.length === 0) return;
     e.preventDefault();
     const c = filtered[focusedRow];
