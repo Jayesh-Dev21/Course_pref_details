@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Open Electives - S6 2026</title>
+  <title>Open Electives - 2026-27</title>
   <link rel="icon" type="image/png" href="https://www.iitbhu.ac.in/sites/default/files/iitbhu/images/other/iit_logo_original.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -66,9 +66,6 @@ body {
   --row-hover: var(--slate-400);
   --batch-bg: var(--slate-200);
   --search-bg: var(--slate-100);
-  --sem-header: var(--slate-700);
-  --badge-default-bg: var(--slate-400);
-  --badge-default-fg: var(--slate-100);
 
   background-color: var(--bg);
 }
@@ -98,9 +95,6 @@ body.dark {
   --row-hover: #1e293b;
   --batch-bg: #1e293b;
   --search-bg: #262626;
-  --sem-header: var(--slate-300);
-  --badge-default-bg: var(--slate-500);
-  --badge-default-fg: var(--slate-200);
 
   background-color: var(--bg);
 }
@@ -214,6 +208,36 @@ body:not(.dark) .dark-toggle .moon {
   display: none;
 }
 
+.branch-bar {
+  padding: 0.375rem 24px;
+  border-bottom: 1px solid var(--border-color);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.branch-bar label {
+  font-family: monospace;
+  font-size: 0.75rem;
+  color: var(--neutral-600);
+  white-space: nowrap;
+}
+.branch-bar select {
+  flex: 1;
+  padding: 0.375rem 0.5rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--search-bg);
+  color: var(--neutral-900);
+  font-family: monospace;
+  font-size: 0.8125rem;
+  outline: none;
+  cursor: pointer;
+}
+.branch-bar select:focus {
+  border-color: var(--neutral-600);
+}
+
 .search-bar {
   padding: 0.5rem 24px;
   border-bottom: 1px solid var(--border-color);
@@ -261,7 +285,6 @@ body:not(.dark) .dark-toggle .moon {
   flex-direction: column;
   border-bottom: 1px solid var(--border-color);
   transition: background-color 0.1s ease-in-out;
-  cursor: pointer;
 }
 .row:hover,
 .row.focused {
@@ -271,14 +294,29 @@ body:not(.dark) .dark-toggle .moon {
   outline: 1px solid var(--neutral-600);
   outline-offset: -1px;
 }
+.row.liked {
+  border-left: 3px solid var(--green-600);
+}
+.row.disliked {
+  border-left: 3px solid var(--yellow-600);
+}
 .row-main {
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: auto auto 1fr auto;
   gap: 0.5rem;
   padding: 0.5rem 24px;
   align-items: center;
   font-family: monospace;
   font-size: 0.875rem;
+}
+.not-eligible {
+  display: none;
+  font-size: 0.6875rem;
+  color: var(--yellow-700);
+  font-family: monospace;
+}
+.not-eligible.show {
+  display: block;
 }
 .row-index {
   opacity: 0.7;
@@ -302,6 +340,43 @@ body:not(.dark) .dark-toggle .moon {
   font-size: 0.75rem;
   color: var(--neutral-600);
 }
+.vote-group {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+}
+.vote-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border: 1px solid var(--border-color);
+  border-radius: 50%;
+  background: var(--search-bg);
+  color: var(--neutral-500);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  user-select: none;
+  font-family: monospace;
+  padding: 0;
+}
+.vote-btn:hover {
+  background: var(--row-hover);
+}
+.vote-btn.liked {
+  background: var(--green-600);
+  border-color: var(--green-600);
+  color: #fff;
+}
+.vote-btn.disliked {
+  background: var(--yellow-600);
+  border-color: var(--yellow-600);
+  color: #fff;
+}
 .row-toggle {
   color: var(--neutral-600);
   transition: transform 0.15s ease-in-out;
@@ -310,73 +385,56 @@ body:not(.dark) .dark-toggle .moon {
   transform: rotate(180deg);
 }
 
-.batch-details {
-  display: none;
-  max-height: 300px;
-  overflow-y: auto;
-  background: var(--batch-bg);
+.section {
+  display: flex;
+  flex-direction: column;
 }
-.batch-details.open {
-  display: block;
-}
-.batch-details::-webkit-scrollbar {
-  width: 6px;
-}
-.batch-details::-webkit-scrollbar-thumb {
-  background: var(--border-color);
-  border-radius: 3px;
-}
-.batch-details-inner {
-  padding: 0.5rem 24px 0.75rem;
-  border-top: 1px solid var(--border-color);
-}
-.semester-group {
-  margin-bottom: 0.75rem;
-}
-.semester-group:last-child {
-  margin-bottom: 0;
-}
-.semester-header {
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 24px 0.25rem;
   font-family: monospace;
-  font-size: 0.75rem;
-  font-weight: 700;
-  color: var(--sem-header);
-  margin-bottom: 0.25rem;
-  padding-bottom: 0.125rem;
-  border-bottom: 1px dashed var(--border-color);
-}
-.batch-item {
-  font-family: monospace;
-  font-size: 0.75rem;
-  color: var(--neutral-700);
-  padding: 0.125rem 0 0.125rem 0.75rem;
-}
-.batch-item .type-badge {
-  display: inline-block;
-  font-size: 0.625rem;
-  padding: 0 0.375rem;
-  border-radius: 3px;
-  margin-right: 0.375rem;
-  background: var(--badge-default-bg);
-  color: var(--badge-default-fg);
-}
-.type-badge.oe {
-  background: var(--yellow-600);
-  color: var(--yellow-100);
-}
-.type-badge.st {
-  background: var(--blue-900);
-  color: var(--slate-200);
-}
-.type-badge.compulsory {
-  background: var(--green-600);
-  color: var(--emerald-100);
-}
-.no-batches {
-  font-family: monospace;
-  font-size: 0.75rem;
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
   color: var(--neutral-500);
-  font-style: italic;
+  border-bottom: 1px solid var(--border-color);
+  position: sticky;
+  top: 0;
+  background: var(--bg);
+  z-index: 1;
+}
+.section-header .section-count {
+  font-size: 0.625rem;
+  background: var(--border-color);
+  color: var(--neutral-700);
+  border-radius: 999px;
+  padding: 0 0.375rem;
+  line-height: 1.4;
+}
+.grip {
+  cursor: grab;
+  display: inline-flex;
+  align-items: center;
+  color: var(--neutral-500);
+  opacity: 0.4;
+  transition: opacity 0.1s ease-in-out;
+  user-select: none;
+  touch-action: none;
+}
+.row:hover .grip {
+  opacity: 0.8;
+}
+.grip:active {
+  cursor: grabbing;
+}
+.row.dragging {
+  opacity: 0.4;
+}
+.row.drag-over {
+  outline: 2px dashed var(--neutral-500);
+  outline-offset: -2px;
 }
 
 .no-results {
@@ -416,11 +474,24 @@ body:not(.dark) .dark-toggle .moon {
   .row-index {
     display: none;
   }
+  .grip {
+    display: none;
+  }
+  .branch-bar {
+    padding: 0.375rem 12px;
+  }
   .search-bar {
     padding: 0.5rem 12px;
   }
   .course-count {
     padding: 0.5rem 12px;
+  }
+  .section-header {
+    padding: 0.5rem 12px 0.25rem;
+  }
+  .bottom-bar {
+    padding: 0.5rem 12px;
+    flex-wrap: wrap;
   }
 }
 
@@ -428,6 +499,62 @@ body:not(.dark) .dark-toggle .moon {
   .row-main {
     font-size: 0.75rem;
   }
+}
+
+.bottom-bar {
+  padding: 0.5rem 24px;
+  border-top: 1px solid var(--border-color);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  font-family: monospace;
+  font-size: 0.75rem;
+  color: var(--neutral-600);
+  background: var(--bg);
+}
+.copy-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.375rem 0.75rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--search-bg);
+  color: var(--neutral-700);
+  font-family: "Lato", sans-serif;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background-color 0.1s ease-in-out;
+  white-space: nowrap;
+}
+.copy-btn:hover {
+  background-color: var(--row-hover);
+  color: var(--neutral-900);
+}
+.copy-btn svg {
+  flex-shrink: 0;
+}
+
+.toast {
+  position: fixed;
+  bottom: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--neutral-800);
+  color: var(--slate-100);
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-family: monospace;
+  font-size: 0.8125rem;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  pointer-events: none;
+  z-index: 100;
+}
+.toast.show {
+  opacity: 1;
 }
   </style>
 </head>
@@ -451,15 +578,27 @@ body:not(.dark) .dark-toggle .moon {
         </div>
         <p>
           <a href="https://academicservices.iitbhu.ac.in">IIT BHU</a> &middot;
-          <a href="https://github.com/Jayesh-Dev21/Course_pref_details">S6 2026</a>
+          <a href="https://github.com/Jayesh-Dev21/Course_pref_details">2026-27</a>
         </p>
       </div>
     </header>
+    <div class="branch-bar">
+      <label for="branch">Branch:</label>
+      <select id="branch"><option value="">All branches</option></select>
+    </div>
     <div class="search-bar">
       <input type="text" id="search" placeholder="Search by code, name, department, or professor..." autocomplete="off">
     </div>
     <div class="course-count" id="course-count"></div>
     <div class="content" id="content"></div>
+    <div class="bottom-bar">
+      <span id="pref-count">Drag to rank your preferences</span>
+      <button class="copy-btn" id="copy-btn">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="M15 11h-6"/><path d="M15 7h-6"/><path d="M15 15h-6"/></svg>
+        Copy preference list
+      </button>
+    </div>
+    <div class="toast" id="toast"></div>
   </div>
 
   <script id="courses-data" type="application/json">
@@ -480,76 +619,143 @@ document.getElementById("dark-toggle").addEventListener("click", () => {
 const SUBHEADS = [
   "All choices, in case you miss one",
   "Scroll till you find the right elective",
-  "Open electives for S6 2026",
+  "Open electives for 2026-27",
 ];
 
 document.getElementById("subhead").textContent =
   SUBHEADS[Math.floor(Math.random() * SUBHEADS.length)];
 
 const courses = JSON.parse(document.getElementById("courses-data").textContent);
-const courseList = Object.entries(courses).map(([code, c], i) => ({
+const baseList = Object.entries(courses).map(([code, c], i) => ({
   code,
   ...c,
   index: i + 1,
 }));
 
+// ── Branch dropdown ──
+const branchSelect = document.getElementById("branch");
+const depts = [...new Set(baseList.map(c => c.department))].sort();
+for (const d of depts) {
+  const opt = document.createElement("option");
+  opt.value = d;
+  opt.textContent = d;
+  branchSelect.appendChild(opt);
+}
+
+// ── Preferences ──
+function loadPrefs() {
+  try {
+    return JSON.parse(localStorage.getItem("oe_prefs")) || {};
+  } catch { return {}; }
+}
+function savePrefs(prefs) {
+  localStorage.setItem("oe_prefs", JSON.stringify(prefs));
+}
+let prefs = loadPrefs();
+
+// Apply saved branch
+if (prefs.branch) branchSelect.value = prefs.branch;
+
+// ── Sort courseList by saved order ──
+let courseList;
+function sortByPrefs() {
+  const likes = prefs.likes || [];
+  const neutral = prefs.neutral || [];
+  const dislikes = prefs.dislikes || [];
+  const branch = prefs.branch || "";
+
+  const newLikes = [];
+  const newNeutral = [];
+  const newDisliked = [];
+  const ineligible = [];
+
+  for (const c of baseList) {
+    if (likes.indexOf(c.code) >= 0) newLikes.push(c);
+    else if (dislikes.indexOf(c.code) >= 0) newDisliked.push(c);
+    else newNeutral.push(c);
+  }
+
+  newLikes.sort((a, b) => likes.indexOf(a.code) - likes.indexOf(b.code));
+  newNeutral.sort((a, b) => neutral.indexOf(a.code) - neutral.indexOf(b.code));
+  newDisliked.sort((a, b) => dislikes.indexOf(a.code) - dislikes.indexOf(b.code));
+
+  // Save back any new additions
+  const changed = JSON.stringify(newLikes.map(c => c.code)) !== JSON.stringify(likes)
+    || JSON.stringify(newNeutral.map(c => c.code)) !== JSON.stringify(neutral)
+    || JSON.stringify(newDisliked.map(c => c.code)) !== JSON.stringify(dislikes);
+
+  if (changed) {
+    prefs.likes = newLikes.map(c => c.code);
+    prefs.neutral = newNeutral.map(c => c.code);
+    prefs.dislikes = newDisliked.map(c => c.code);
+    if (prefs.likes.length === 0) delete prefs.likes;
+    if (prefs.neutral.length === 0) delete prefs.neutral;
+    if (prefs.dislikes.length === 0) delete prefs.dislikes;
+    savePrefs(prefs);
+  }
+
+  // Split neutral & disliked into ineligible when branch is set
+  let liked = newLikes;
+  let neutral2 = [];
+  let disliked2 = [];
+  let inelig = [];
+  for (const c of newNeutral) {
+    if (branch && c.department === branch) inelig.push(c);
+    else neutral2.push(c);
+  }
+  for (const c of newDisliked) {
+    if (branch && c.department === branch) inelig.push(c);
+    else disliked2.push(c);
+  }
+
+  courseList = [...liked, ...neutral2, ...disliked2, ...inelig];
+  // Store sections for drag scoping
+  courseList.sections = {
+    liked: new Set(liked.map(c => c.code)),
+    neutral: new Set(neutral2.map(c => c.code)),
+    disliked: new Set(disliked2.map(c => c.code)),
+    ineligible: new Set(inelig.map(c => c.code)),
+  };
+}
+sortByPrefs();
+
 const searchInput = document.getElementById("search");
 const content = document.getElementById("content");
 const courseCount = document.getElementById("course-count");
+const prefCount = document.getElementById("pref-count");
 
-let expandedIndex = null;
 let focusedRow = 0;
 
-function getTypeClass(type) {
-  const t = type.toLowerCase();
-  if (t.includes("open elective")) return "oe";
-  if (t.includes("compulsory")) return "compulsory";
-  if (t.includes("st")) return "st";
-  return "";
-}
-
-function renderBatchDetails(course) {
-  const batches = course.batches;
-  if (!batches || batches.length === 0) {
-    return '<div class="no-batches">No previous batch data available.</div>';
-  }
-
-  const grouped = {};
-  for (const b of batches) {
-    const sem = b.semester;
-    if (!grouped[sem]) grouped[sem] = [];
-    grouped[sem].push(b);
-  }
-
-  const sortedSems = Object.keys(grouped).sort().reverse();
-
-  let html = "";
-  for (const sem of sortedSems) {
-    const group = grouped[sem];
-    html += '<div class="semester-group">';
-    html += `<div class="semester-header">${sem} (${group.length} batch${group.length > 1 ? "es" : ""})</div>`;
-    for (const b of group) {
-      const typeClass = getTypeClass(b.type);
-      html += `<div class="batch-item"><span class="type-badge ${typeClass}">${b.type}</span> ${b.batch}</div>`;
-    }
-    html += "</div>";
-  }
-  return html;
-}
-
+// ── Helpers ──
 let filtered = [];
+let dragSource = null;
+
+function getSection(code) {
+  const s = courseList.sections;
+  if (!s) return null;
+  for (const [name, set] of Object.entries(s)) {
+    if (set.has(code)) return name;
+  }
+  return null;
+}
 
 function render() {
   const query = searchInput.value.toLowerCase().trim();
+  const branch = branchSelect.value;
+  const showNotEligible = branch !== "";
 
   filtered = query
-    ? courseList.filter((c) => {
-        const searchStr = `${c.code} ${c.name} ${c.department} ${c.professor}`.toLowerCase();
-        return searchStr.includes(query);
+    ? courseList.filter(c => {
+        const s = `${c.code} ${c.name} ${c.department} ${c.professor}`.toLowerCase();
+        return s.includes(query);
       })
     : courseList;
 
   courseCount.textContent = `${filtered.length} of ${courseList.length} elective${courseList.length > 1 ? "s" : ""}`;
+
+  const likes = prefs.likes || [];
+  const likedCount = likes.length;
+  prefCount.textContent = `${likedCount} liked · ${courseList.length - likedCount} unranked`;
 
   if (filtered.length === 0) {
     content.innerHTML = '<div class="no-results">No electives match your search.</div>';
@@ -560,50 +766,231 @@ function render() {
   if (focusedRow >= filtered.length) focusedRow = filtered.length - 1;
   if (focusedRow < 0) focusedRow = 0;
 
-  const padLen = filtered.length > 99 ? 3 : 2;
+  // Group filtered into sections preserving order
+  const sections = { liked: [], neutral: [], disliked: [], ineligible: [] };
+  const order = ["liked", "neutral", "disliked", "ineligible"];
+  const sectionNames = { liked: "Liked", neutral: "Neutral", disliked: "Disliked", ineligible: "Not eligible" };
+  const sectionClasses = { liked: "sec-liked", neutral: "sec-neutral", disliked: "sec-disliked", ineligible: "sec-ineligible" };
+  const s = courseList.sections;
+  if (s) {
+    for (const c of filtered) {
+      for (const key of order) {
+        if (s[key].has(c.code)) { sections[key].push(c); break; }
+      }
+    }
+  } else {
+    sections.liked = filtered;
+  }
 
   let html = "";
-  for (const c of filtered) {
-    const idx = String(c.index).padStart(padLen, "0");
-    const isOpen = expandedIndex === c.index;
-    const isFocused = filtered.indexOf(c) === focusedRow;
+  let globalIdx = 1;
+  for (const key of order) {
+    const group = sections[key];
+    if (group.length === 0) continue;
+    const totalGlobal = filtered.length;
+    html += `<div class="section ${sectionClasses[key]}">`;
+    html += `<div class="section-header">${sectionNames[key]} <span class="section-count">${group.length}</span></div>`;
+    for (const c of group) {
+      const idx = String(globalIdx++).padStart(String(totalGlobal).length, "0");
+      const isFocused = filtered.indexOf(c) === focusedRow;
+      const notElig = showNotEligible && c.department === branch;
+      const liked = likes.indexOf(c.code) >= 0;
+      const disliked = (prefs.dislikes || []).indexOf(c.code) >= 0;
 
-    html += `<div class="row ${isFocused ? "focused" : ""}" data-index="${c.index}">`;
-    html += `  <div class="row-main">`;
-    html += `    <div class="row-index"><span>${"0".repeat(3 - String(c.index).length)}</span>${c.index}</div>`;
-    html += `    <div class="row-info">`;
-    html += `      <div><span class="row-code">${c.code}</span> <span class="row-name">${c.name}</span></div>`;
-    html += `      <div class="row-meta">${c.department}${c.professor && c.professor !== "-" ? " &middot; " + c.professor : ""} &middot; ${c.credits} credits${c.ltp && c.ltp !== "-" ? " &middot; " + c.ltp : ""}</div>`;
-    html += `    </div>`;
-    html += `    <div class="row-toggle ${isOpen ? "open" : ""}">`;
-    html += `      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>`;
-    html += `    </div>`;
-    html += `  </div>`;
-    html += `  <div class="batch-details ${isOpen ? "open" : ""}">`;
-    html += `    <div class="batch-details-inner">${renderBatchDetails(c)}</div>`;
-    html += `  </div>`;
+      let rowClass = isFocused ? "focused" : "";
+      if (liked) rowClass += " liked";
+      else if (notElig || disliked) rowClass += " disliked";
+
+      html += `<div class="row${rowClass ? " " + rowClass : ""}" data-code="${c.code}">`;
+      html += `  <div class="row-main">`;
+      html += `    <div class="grip" draggable="true" data-grip="${c.code}">`;
+      html += `      <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><circle cx="9" cy="5" r="1.5"/><circle cx="15" cy="5" r="1.5"/><circle cx="9" cy="12" r="1.5"/><circle cx="15" cy="12" r="1.5"/><circle cx="9" cy="19" r="1.5"/><circle cx="15" cy="19" r="1.5"/></svg>`;
+      html += `    </div>`;
+      html += `    <div class="row-index">${idx}</div>`;
+      html += `    <div class="row-info">`;
+      html += `      <div><span class="row-code">${c.code}</span> <span class="row-name">${c.name}</span></div>`;
+      html += `      <div class="row-meta">${c.department}${c.professor && c.professor !== "-" ? " &middot; " + c.professor : ""} &middot; ${c.credits} credits${c.ltp && c.ltp !== "-" ? " &middot; " + c.ltp : ""}</div>`;
+      html += `      <div class="not-eligible ${notElig ? "show" : ""}">Not eligible for your branch</div>`;
+      html += `    </div>`;
+      html += `    <div class="vote-group">`;
+      html += `      <button class="vote-btn ${liked ? "liked" : ""}" data-vote="like" data-code="${c.code}">+</button>`;
+      html += `      <button class="vote-btn ${disliked || notElig ? "disliked" : ""}" data-vote="dislike" data-code="${c.code}">&minus;</button>`;
+      html += `    </div>`;
+      html += `  </div>`;
+      html += `</div>`;
+    }
     html += `</div>`;
   }
 
   content.innerHTML = html;
 
-  content.querySelectorAll(".row").forEach((el) => {
-    el.addEventListener("click", () => {
-      const idx = parseInt(el.dataset.index, 10);
-      expandedIndex = expandedIndex === idx ? null : idx;
+  // Vote buttons
+  content.querySelectorAll(".vote-btn").forEach(btn => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const code = btn.dataset.code;
+      const vote = btn.dataset.vote;
+      let likes2 = prefs.likes || [];
+      let neutral2 = prefs.neutral || [];
+      let dislikes2 = prefs.dislikes || [];
+
+      // Remove from all
+      const li = likes2.indexOf(code);
+      const ni = neutral2.indexOf(code);
+      const di = dislikes2.indexOf(code);
+      if (li >= 0) likes2.splice(li, 1);
+      if (ni >= 0) neutral2.splice(ni, 1);
+      if (di >= 0) dislikes2.splice(di, 1);
+
+      if (vote === "like") likes2.push(code);
+      else dislikes2.push(code);
+
+      prefs.likes = likes2;
+      prefs.neutral = neutral2;
+      prefs.dislikes = dislikes2;
+      if (prefs.likes.length === 0) delete prefs.likes;
+      if (prefs.neutral.length === 0) delete prefs.neutral;
+      if (prefs.dislikes.length === 0) delete prefs.dislikes;
+      savePrefs(prefs);
+      sortByPrefs();
       render();
     });
   });
+
+  // Grip drag init
+  content.querySelectorAll(".grip").forEach(grip => {
+    grip.addEventListener("dragstart", (e) => {
+      dragSource = grip.dataset.grip;
+      const row = grip.closest(".row");
+      if (row) row.classList.add("dragging");
+      e.dataTransfer.effectAllowed = "move";
+      e.dataTransfer.setData("text/plain", grip.dataset.grip);
+    });
+  });
+
+  // Row drop targets
+  content.querySelectorAll(".row").forEach(el => {
+    el.addEventListener("dragover", (e) => {
+      if (e.dataTransfer.types.indexOf("text/plain") < 0) return;
+      e.preventDefault();
+      e.dataTransfer.dropEffect = "move";
+      content.querySelectorAll(".row").forEach(r => r.classList.remove("drag-over"));
+      if (el.dataset.code !== dragSource) el.classList.add("drag-over");
+    });
+    el.addEventListener("dragleave", () => {
+      el.classList.remove("drag-over");
+    });
+    el.addEventListener("drop", (e) => {
+      e.preventDefault();
+      content.querySelectorAll(".row").forEach(r => r.classList.remove("drag-over"));
+      const fromCode = e.dataTransfer.getData("text/plain");
+      const toCode = el.dataset.code;
+      if (!fromCode || fromCode === toCode) return;
+
+      const fromSection = getSection(fromCode);
+      const toSection = getSection(toCode);
+      if (!fromSection || fromSection !== toSection) return;
+      if (fromSection === "ineligible") return;
+
+      if (fromSection === "liked") {
+        let arr = prefs.likes || [];
+        const fi = arr.indexOf(fromCode);
+        const ti = arr.indexOf(toCode);
+        if (fi < 0 || ti < 0) return;
+        arr.splice(fi, 1);
+        arr.splice(ti, 0, fromCode);
+        prefs.likes = arr;
+      } else if (fromSection === "neutral") {
+        let arr = prefs.neutral || [];
+        const fi = arr.indexOf(fromCode);
+        const ti = arr.indexOf(toCode);
+        if (fi < 0 || ti < 0) return;
+        arr.splice(fi, 1);
+        arr.splice(ti, 0, fromCode);
+        prefs.neutral = arr;
+      } else if (fromSection === "disliked") {
+        let arr = prefs.dislikes || [];
+        const fi = arr.indexOf(fromCode);
+        const ti = arr.indexOf(toCode);
+        if (fi < 0 || ti < 0) return;
+        arr.splice(fi, 1);
+        arr.splice(ti, 0, fromCode);
+        prefs.dislikes = arr;
+      }
+      savePrefs(prefs);
+      sortByPrefs();
+      render();
+    });
+  });
+
+  // Global dragend cleanup
+  document.addEventListener("dragend", () => {
+    content.querySelectorAll(".row").forEach(r => {
+      r.classList.remove("dragging", "drag-over");
+    });
+    dragSource = null;
+  }, { once: true });
 }
 
+// ── Branch change ──
+branchSelect.addEventListener("change", () => {
+  prefs.branch = branchSelect.value || undefined;
+  if (!prefs.branch) delete prefs.branch;
+  savePrefs(prefs);
+  render();
+});
+
+// ── Search ──
 searchInput.addEventListener("input", () => {
-  expandedIndex = null;
   focusedRow = 0;
   render();
 });
 
+// ── Copy ──
+document.getElementById("copy-btn").addEventListener("click", () => {
+  const lines = [];
+  lines.push("Open Elective Preferences - 2026-27");
+  lines.push("=".repeat(42));
+  if (prefs.branch) lines.push(`Branch: ${prefs.branch}`);
+  const date = new Date();
+  lines.push(`Date: ${date.toLocaleDateString("en-IN", { year: "numeric", month: "short", day: "numeric" })}`);
+  lines.push("");
+  lines.push("Rank  Code      Course");
+  lines.push("-".repeat(42));
+  const likes = prefs.likes || [];
+  const neutral = prefs.neutral || [];
+  const dislikes = prefs.dislikes || [];
+  const map = {};
+  for (const c of baseList) map[c.code] = c;
+  const ordered = [];
+  for (const code of likes) if (map[code]) ordered.push(map[code]);
+  for (const code of neutral) if (map[code] && likes.indexOf(code) < 0 && dislikes.indexOf(code) < 0) ordered.push(map[code]);
+  for (const code of dislikes) if (map[code]) ordered.push(map[code]);
+  // Catch any courses not in any array (shouldn't happen, but safeguard)
+  for (const c of baseList) {
+    if (likes.indexOf(c.code) < 0 && dislikes.indexOf(c.code) < 0 && neutral.indexOf(c.code) < 0) ordered.push(c);
+  }
+  ordered.forEach((c, i) => {
+    lines.push(` ${String(i + 1).padStart(2)}   ${c.code.padEnd(9)} ${c.name}`);
+  });
+  const text = lines.join("\n");
+
+  navigator.clipboard.writeText(text).then(() => {
+    showToast("Preference list copied!");
+  }).catch(() => {
+    const ta = document.createElement("textarea");
+    ta.value = text;
+    document.body.appendChild(ta);
+    ta.select();
+    document.execCommand("copy");
+    document.body.removeChild(ta);
+    showToast("Preference list copied!");
+  });
+});
+
+// ── Keyboard ──
 document.addEventListener("keydown", (e) => {
-  if (e.target.tagName === "INPUT") return;
+  if (e.target.tagName === "INPUT" || e.target.tagName === "SELECT") return;
 
   if (e.key === "j" || (e.key === "n" && e.ctrlKey)) {
     e.preventDefault();
@@ -621,7 +1008,21 @@ document.addEventListener("keydown", (e) => {
     if (filtered.length === 0) return;
     e.preventDefault();
     const c = filtered[focusedRow];
-    expandedIndex = expandedIndex === c.index ? null : c.index;
+    const likes2 = prefs.likes || [];
+    const dislikes2 = prefs.dislikes || [];
+    const idx = likes2.indexOf(c.code);
+    if (idx >= 0) likes2.splice(idx, 1);
+    else {
+      const dIdx = dislikes2.indexOf(c.code);
+      if (dIdx >= 0) dislikes2.splice(dIdx, 1);
+      likes2.push(c.code);
+    }
+    prefs.likes = likes2;
+    prefs.dislikes = dislikes2;
+    if (prefs.likes.length === 0) delete prefs.likes;
+    if (prefs.dislikes.length === 0) delete prefs.dislikes;
+    savePrefs(prefs);
+    sortByPrefs();
     render();
     const row = content.querySelector(".row.focused");
     if (row) row.scrollIntoView({ block: "nearest" });

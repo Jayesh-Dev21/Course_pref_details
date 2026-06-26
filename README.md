@@ -1,3 +1,3 @@
-# Open Electives - S6 2026
+# Open Electives - 2026-27
 
-All open elective preferences for S6 2026 at IIT BHU. Browse courses and see their batch history.
+All open elective preferences for 2026-27 at IIT BHU. Browse courses and see their batch history.
