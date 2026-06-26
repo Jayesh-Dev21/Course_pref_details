@@ -1,0 +1,13571 @@
+const COURSES_DATA = {
+  "BC-201": {
+    "code": "BC-201",
+    "name": "Advance in Biochemistry",
+    "credits": "13.00",
+    "ltp": "3-1-2",
+    "department": "School of Biochemical Engineering",
+    "professor": "Dr. Abha Mishra",
+    "batches": [
+      {
+        "subject": "BC-201:Advances in Biochemistry",
+        "type": "Compulsory",
+        "credits": "4.00",
+        "semester": "2026-27, ODD",
+        "batch": "BC- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2025-26, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2025-26, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2025-26, ODD",
+        "batch": "BC- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2025-26, ODD",
+        "batch": "CY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2025-26, ODD",
+        "batch": "PH- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2025-26, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2025-26, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2025-26, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2025-26, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2025-26, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2025-26, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2025-26, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2025-26, ODD",
+        "batch": "MN- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2025-26, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2025-26, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2025-26, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2025-26, ODD",
+        "batch": "EE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2025-26, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2025-26, ODD",
+        "batch": "MA- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2025-26, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2024-25, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2024-25, ODD",
+        "batch": "PH- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2024-25, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2024-25, ODD",
+        "batch": "BC- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2024-25, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2024-25, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2023-24, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2023-24, ODD",
+        "batch": "BC- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2023-24, ODD",
+        "batch": "PH- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2023-24, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2023-24, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2023-24, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2022-23, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2022-23, ODD",
+        "batch": "BC- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2022-23, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2022-23, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2022-23, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2021-22, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2021-22, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2021-22, ODD",
+        "batch": "MA- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2021-22, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2021-22, ODD",
+        "batch": "BC- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2021-22, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2021-22, ODD",
+        "batch": "CY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2021-22, ODD",
+        "batch": "EE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2021-22, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2021-22, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2021-22, ODD",
+        "batch": "MN- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2021-22, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2021-22, ODD",
+        "batch": "CS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2021-22, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2020-21, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2020-21, ODD",
+        "batch": "MA- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2020-21, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2020-21, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2020-21, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2020-21, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2020-21, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2020-21, ODD",
+        "batch": "BC- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2020-21, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2020-21, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2020-21, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2020-21, ODD",
+        "batch": "EE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2020-21, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2020-21, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2020-21, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2020-21, ODD",
+        "batch": "PH- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2020-21, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2019-20, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2019-20, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2019-20, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2019-20, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2019-20, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2019-20, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2019-20, ODD",
+        "batch": "PH- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2019-20, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2019-20, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2019-20, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2019-20, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2019-20, ODD",
+        "batch": "CY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2019-20, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2019-20, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2019-20, ODD",
+        "batch": "BC- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2018-19, ODD",
+        "batch": "BC- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2017-18, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2017-18, ODD",
+        "batch": "BC- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2017-18, ODD",
+        "batch": "PH- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2017-18, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BC-201:Advance in Biochemistry",
+        "type": "Open Elective",
+        "credits": "13.00",
+        "semester": "2017-18, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BC-201:Advances in Biochemistry",
+        "type": "Compulsory",
+        "credits": "13.00",
+        "semester": "2016-17, ODD",
+        "batch": "BC- 5-Year IDD III-Semester"
+      }
+    ]
+  },
+  "CSE-530": {
+    "code": "CSE-530",
+    "name": "Information Security",
+    "credits": "3.00",
+    "ltp": "3-0-0",
+    "department": "Department of Computer Science and Engineering",
+    "professor": "Dr. Obbattu Sai Lakshmi Bhavana",
+    "batches": [
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, SUPPLEMENTARY",
+        "batch": "CH-Supplementary 2025-26"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2026-27, ODD",
+        "batch": "CS- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2026-27, ODD",
+        "batch": "CS- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "3.00",
+        "semester": "2025-26, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "BC- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PH- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MN- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "3.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- Ph.D. Admitted in 2025-26 ODD SEM"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MA- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "EE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CS- Ph.D. Admitted in 2024-25 ODD SEM"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CS- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MA- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "AR- 5-Year B.Arch. V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "EE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CS- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CS- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MA- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MA- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "EE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "CS- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "CS- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "MA- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "PY- Ph.D. Admitted in 2022-23 ODD SEM"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CS- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CS- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CS- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CS- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "MA- Ph.D. Admitted in 2018-19 EVEN SEM"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "CS- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "CS- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "CSE-530:Information Security",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "CS- 4-Year B.Tech. VII-Semester"
+      }
+    ]
+  },
+  "PHY-201": {
+    "code": "PHY-201",
+    "name": "Quantum Physics",
+    "credits": "4.00",
+    "ltp": "3-0-2",
+    "department": "Department of Physics",
+    "professor": "Dr. Saurabh Srivastava",
+    "batches": [
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2025-26, SUPPLEMENTARY",
+        "batch": "PY-Supplementary 2025-26"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "4.00",
+        "semester": "2026-27, ODD",
+        "batch": "MS- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "4.00",
+        "semester": "2026-27, ODD",
+        "batch": "PY- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2025-26, ODD",
+        "batch": "MS- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2025-26, ODD",
+        "batch": "PY- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2024-25, ODD",
+        "batch": "MS- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2024-25, ODD",
+        "batch": "PY- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2023-24, ODD",
+        "batch": "MS- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2023-24, ODD",
+        "batch": "PY- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2022-23, ODD",
+        "batch": "MS- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2022-23, ODD",
+        "batch": "PY- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2021-22, ODD",
+        "batch": "PY- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2021-22, ODD",
+        "batch": "MS- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2020-21, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2020-21, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2020-21, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2020-21, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2020-21, ODD",
+        "batch": "PY- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2020-21, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2020-21, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2020-21, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2020-21, ODD",
+        "batch": "BC- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2020-21, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2020-21, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2020-21, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2020-21, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2020-21, ODD",
+        "batch": "MS- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2020-21, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2020-21, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2020-21, ODD",
+        "batch": "PH- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2020-21, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2020-21, ODD",
+        "batch": "CS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2020-21, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2019-20, ODD",
+        "batch": "MS- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2019-20, ODD",
+        "batch": "PY- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2018-19, ODD",
+        "batch": "PY- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2018-19, ODD",
+        "batch": "MS- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2017-18, ODD",
+        "batch": "PY- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2017-18, ODD",
+        "batch": "MS- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2016-17, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2016-17, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2016-17, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2016-17, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2016-17, ODD",
+        "batch": "CS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2016-17, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2016-17, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2016-17, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2016-17, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2016-17, ODD",
+        "batch": "PY- 5-Year IMD III-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2016-17, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2016-17, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2016-17, ODD",
+        "batch": "MS- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2016-17, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2016-17, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PHY-201:Quantum Physics",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2016-17, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      }
+    ]
+  },
+  "MT-202": {
+    "code": "MT-202",
+    "name": "Principles of Extractive Metallurgy",
+    "credits": "3.00",
+    "ltp": "3-0-0",
+    "department": "Department of Metallurgical Engineering",
+    "professor": "Dr. Randhir Singh",
+    "batches": [
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, SUPPLEMENTARY",
+        "batch": "MT-Supplementary 2025-26"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, SUPPLEMENTARY",
+        "batch": "PY-Supplementary 2025-26"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2026-27, ODD",
+        "batch": "IITBHU-MNR"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "3.00",
+        "semester": "2026-27, ODD",
+        "batch": "MT- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "IITBHU-MNR"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "BC- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PH- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MT- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MT- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MN- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MA- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, SUMMER",
+        "batch": "MT-Summer Term 2024-25"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "IITBHU-MNR"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MT- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MT- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MN- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "IITBHU-MNR"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MT- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MT- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MN- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "IITBHU-MNR"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "MT- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "MT- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "MT- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "MT- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "MT-202:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, SUMMER",
+        "batch": "MT-Summer Term 2020-21"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "MT- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "MT- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "12.00",
+        "semester": "2019-20, SUMMER",
+        "batch": "MT-Summer Term 2019-20"
+      },
+      {
+        "subject": "MT-202:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, EVEN",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MT-202:PHASE DIAGRAMS",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, EVEN",
+        "batch": "CR- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-202:PHASE DIAGRAMS",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, EVEN",
+        "batch": "BM- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MT-202:PHASE DIAGRAMS",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, EVEN",
+        "batch": "MN- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-202:PHASE DIAGRAMS",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, EVEN",
+        "batch": "PH- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-202:PHASE DIAGRAMS",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, EVEN",
+        "batch": "CS- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "MT- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "MT- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "MT-202:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2018-19, EVEN",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MT-202:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2018-19, EVEN",
+        "batch": "MT- 5-Year IDD IV-Semester"
+      },
+      {
+        "subject": "MT-202:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2018-19, EVEN",
+        "batch": "MT- 4-Year B.Tech. IV-Semester"
+      },
+      {
+        "subject": "MT-202:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2018-19, EVEN",
+        "batch": "PH- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-202:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2018-19, EVEN",
+        "batch": "CH- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-202:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2018-19, EVEN",
+        "batch": "CR- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-202:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2018-19, EVEN",
+        "batch": "EC- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-202:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2017-18, EVEN",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MT-202:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2017-18, EVEN",
+        "batch": "CY- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MT-202:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2017-18, EVEN",
+        "batch": "EC- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-202:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2017-18, EVEN",
+        "batch": "CR- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MT-202:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2017-18, EVEN",
+        "batch": "ME- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MT-202:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2017-18, EVEN",
+        "batch": "ME- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-202:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2017-18, EVEN",
+        "batch": "MT- 5-Year IDD IV-Semester"
+      },
+      {
+        "subject": "MT-202:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2017-18, EVEN",
+        "batch": "MT- 4-Year B.Tech. IV-Semester"
+      },
+      {
+        "subject": "MT-202:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2017-18, EVEN",
+        "batch": "MN- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-202N:Phase Diagrams",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2016-17, EVEN",
+        "batch": "MT- 5-Year IDD IV-Semester"
+      },
+      {
+        "subject": "MT-202:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2016-17, EVEN",
+        "batch": "MT- 4-Year B.Tech. IV-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "12.00",
+        "semester": "2016-17, ODD",
+        "batch": "MT- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "MT-202:Principles of Extractive Metallurgy",
+        "type": "ST",
+        "credits": "12.00",
+        "semester": "2016-17, ODD",
+        "batch": "MT- 4-Year B.Tech. III-Semester"
+      }
+    ]
+  },
+  "MN-431": {
+    "code": "MN-431",
+    "name": "Numerical Methods in Geo-mechanics",
+    "credits": "9.00",
+    "ltp": "3-0-0",
+    "department": "Department of Mining Engineering",
+    "professor": "Dr Bhardwaj Pandit",
+    "batches": [
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, SUPPLEMENTARY",
+        "batch": "PH-Supplementary 2025-26"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, SUPPLEMENTARY",
+        "batch": "MN-Supplementary 2025-26"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, SUPPLEMENTARY",
+        "batch": "CR-Supplementary 2025-26"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2026-27, ODD",
+        "batch": "MN- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2026-27, ODD",
+        "batch": "MN- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "BC- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PH- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MN- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MN- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MA- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, SUMMER",
+        "batch": "MN-Summer Term 2024-25"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MN- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MN- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geomechanics",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geomechanics",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geomechanics",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geomechanics",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geomechanics",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geomechanics",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MN- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MN- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geomechanics",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geomechanics",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "CY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "MN- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "MN- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "MA- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "MN- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "MN- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "EE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "MN- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "MN- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "PH- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "MN- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "MN- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geomechanics",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geomechanics",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geomechanics",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geomechanics",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geomechanics",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geomechanics",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geomechanics",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geomechanics",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geomechanics",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geomechanics",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geomechanics",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geomechanics",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "MN- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "MN- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2017-18, SUMMER",
+        "batch": "MN-Summer Term 2017-18"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "MN- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "MN-431:Numerical Methods in Geo-mechanics",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "MN- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "MN-431:Drilling and Blasting of Rocks",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2016-17, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MN-431:Drilling and Blasting of Rocks",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2016-17, ODD",
+        "batch": "EE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Drilling and Blasting of Rocks",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2016-17, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Drilling and Blasting of Rocks",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2016-17, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Drilling and Blasting of Rocks",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2016-17, ODD",
+        "batch": "CS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Drilling and Blasting of Rocks",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2016-17, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Drilling and Blasting of Rocks",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2016-17, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-431:Drilling and Blasting of Rocks",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2016-17, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-431:Drilling and Blasting of Rocks",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2016-17, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      }
+    ]
+  },
+  "MN-481": {
+    "code": "MN-481",
+    "name": "Mineral Processing",
+    "credits": "9.00",
+    "ltp": "3-0-2",
+    "department": "Department of Mining Engineering",
+    "professor": "Dr. Siva Prasad B N V",
+    "batches": [
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2025-26, SUPPLEMENTARY",
+        "batch": "MN-Supplementary 2025-26"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2026-27, ODD",
+        "batch": "MN- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2026-27, ODD",
+        "batch": "MN- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2025-26, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2025-26, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2025-26, ODD",
+        "batch": "BC- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2025-26, ODD",
+        "batch": "CY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2025-26, ODD",
+        "batch": "PH- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2025-26, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2025-26, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2025-26, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2025-26, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2025-26, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2025-26, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2025-26, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2025-26, ODD",
+        "batch": "MN- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2025-26, ODD",
+        "batch": "MN- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2025-26, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2025-26, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2025-26, ODD",
+        "batch": "EE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2025-26, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2025-26, ODD",
+        "batch": "MA- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2025-26, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2024-25, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2024-25, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2024-25, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2024-25, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2024-25, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2024-25, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2024-25, ODD",
+        "batch": "MN- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2024-25, ODD",
+        "batch": "MN- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2024-25, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2023-24, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2023-24, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2023-24, ODD",
+        "batch": "CY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2023-24, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2023-24, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2023-24, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2023-24, ODD",
+        "batch": "MN- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2023-24, ODD",
+        "batch": "MN- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2023-24, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2022-23, ODD",
+        "batch": "MN- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2022-23, ODD",
+        "batch": "MN- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2021-22, ODD",
+        "batch": "MN- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2021-22, ODD",
+        "batch": "MN- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "MA- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2020-21, ODD",
+        "batch": "MN- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2020-21, ODD",
+        "batch": "MN- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2019-20, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2019-20, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2019-20, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2019-20, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2019-20, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2019-20, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2019-20, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2019-20, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2019-20, ODD",
+        "batch": "MN- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2019-20, ODD",
+        "batch": "MN- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2019-20, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2019-20, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2019-20, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2018-19, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2018-19, ODD",
+        "batch": "PY- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2018-19, ODD",
+        "batch": "EE- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2018-19, ODD",
+        "batch": "CS- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2018-19, ODD",
+        "batch": "CE- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2018-19, ODD",
+        "batch": "CR- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2018-19, ODD",
+        "batch": "MS- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2018-19, ODD",
+        "batch": "BC- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2018-19, ODD",
+        "batch": "ME- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2018-19, ODD",
+        "batch": "MT- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2018-19, ODD",
+        "batch": "MN- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2018-19, ODD",
+        "batch": "MN- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2018-19, ODD",
+        "batch": "MA- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2017-18, EVEN",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2017-18, EVEN",
+        "batch": "CY- 5-Year IDD VIII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2017-18, EVEN",
+        "batch": "PY- 5-Year IDD VIII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2017-18, EVEN",
+        "batch": "EE- 5-Year IDD VIII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2017-18, EVEN",
+        "batch": "EE- 4-Year B.Tech. VIII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2017-18, EVEN",
+        "batch": "CS- 5-Year IDD VIII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2017-18, EVEN",
+        "batch": "CS- 4-Year B.Tech. VIII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2017-18, EVEN",
+        "batch": "CE- 5-Year IDD VIII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2017-18, EVEN",
+        "batch": "CE- 4-Year B.Tech. VIII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2017-18, EVEN",
+        "batch": "EC- 4-Year B.Tech. VIII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2017-18, EVEN",
+        "batch": "CH- 4-Year B.Tech. VIII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2017-18, EVEN",
+        "batch": "CR- 5-Year IDD VIII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2017-18, EVEN",
+        "batch": "CR- 4-Year B.Tech. VIII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2017-18, EVEN",
+        "batch": "BM- 5-Year IDD VIII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2017-18, EVEN",
+        "batch": "ME- 5-Year IDD VIII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2017-18, EVEN",
+        "batch": "ME- 4-Year B.Tech. VIII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2017-18, EVEN",
+        "batch": "MT- 5-Year IDD VIII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2017-18, EVEN",
+        "batch": "MT- 4-Year B.Tech. VIII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2017-18, ODD",
+        "batch": "MN- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "MN-481:Mineral Processing",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2017-18, ODD",
+        "batch": "MN- 4-Year B.Tech. VII-Semester"
+      }
+    ]
+  },
+  "MT-205": {
+    "code": "MT-205",
+    "name": "Phase Diagrams",
+    "credits": "3.00",
+    "ltp": "3-0-0",
+    "department": "Department of Metallurgical Engineering",
+    "professor": "Prof. B. Nageshwar Sharma",
+    "batches": [
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, SUPPLEMENTARY",
+        "batch": "MT-Supplementary 2025-26"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "3.00",
+        "semester": "2026-27, ODD",
+        "batch": "MT- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, EVEN",
+        "batch": "PH- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, EVEN",
+        "batch": "CY- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, EVEN",
+        "batch": "BC- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, EVEN",
+        "batch": "BM- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, EVEN",
+        "batch": "CH- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, EVEN",
+        "batch": "ME- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, EVEN",
+        "batch": "ME- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, EVEN",
+        "batch": "EE- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, EVEN",
+        "batch": "EE- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, EVEN",
+        "batch": "EC- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, EVEN",
+        "batch": "CE- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, EVEN",
+        "batch": "CE- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, EVEN",
+        "batch": "CR- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, EVEN",
+        "batch": "CR- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, EVEN",
+        "batch": "MS- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, EVEN",
+        "batch": "PH- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, EVEN",
+        "batch": "PY- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, EVEN",
+        "batch": "CS- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, EVEN",
+        "batch": "CS- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, EVEN",
+        "batch": "MA- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, EVEN",
+        "batch": "MT- 5-Year IDD IV-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, EVEN",
+        "batch": "MT- 4-Year B.Tech. IV-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, EVEN",
+        "batch": "MN- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, EVEN",
+        "batch": "MN- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, EVEN",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, EVEN",
+        "batch": "MT- 5-Year IDD IV-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, EVEN",
+        "batch": "MT- 4-Year B.Tech. IV-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, EVEN",
+        "batch": "PY- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, EVEN",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, EVEN",
+        "batch": "MS- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, EVEN",
+        "batch": "MT- 5-Year IDD IV-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, EVEN",
+        "batch": "MT- 4-Year B.Tech. IV-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, EVEN",
+        "batch": "CR- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, EVEN",
+        "batch": "MN- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, EVEN",
+        "batch": "MN- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, EVEN",
+        "batch": "PY- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, EVEN",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, EVEN",
+        "batch": "MT- 5-Year IDD IV-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, EVEN",
+        "batch": "MT- 4-Year B.Tech. IV-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, EVEN",
+        "batch": "CR- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, EVEN",
+        "batch": "CR- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, EVEN",
+        "batch": "MN- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, EVEN",
+        "batch": "PY- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, EVEN",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, EVEN",
+        "batch": "ME- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, EVEN",
+        "batch": "MA- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, EVEN",
+        "batch": "CR- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, EVEN",
+        "batch": "CR- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, EVEN",
+        "batch": "CH- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, EVEN",
+        "batch": "CE- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, EVEN",
+        "batch": "CE- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, EVEN",
+        "batch": "MT- 5-Year IDD IV-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, EVEN",
+        "batch": "MT- 4-Year B.Tech. IV-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, EVEN",
+        "batch": "CY- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, EVEN",
+        "batch": "EC- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, EVEN",
+        "batch": "EE- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, EVEN",
+        "batch": "MS- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, EVEN",
+        "batch": "MN- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, EVEN",
+        "batch": "PH- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, EVEN",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, EVEN",
+        "batch": "ME- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, EVEN",
+        "batch": "CR- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, EVEN",
+        "batch": "CH- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, EVEN",
+        "batch": "CE- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, EVEN",
+        "batch": "BC- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, EVEN",
+        "batch": "MT- 5-Year IDD IV-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, EVEN",
+        "batch": "MT- 4-Year B.Tech. IV-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, EVEN",
+        "batch": "EC- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, EVEN",
+        "batch": "EE- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, EVEN",
+        "batch": "MS- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, EVEN",
+        "batch": "MN- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, EVEN",
+        "batch": "PH- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, EVEN",
+        "batch": "CS- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, EVEN",
+        "batch": "CS- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, EVEN",
+        "batch": "MT- 5-Year IDD IV-Semester"
+      },
+      {
+        "subject": "MT-205:Phase Diagrams",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, EVEN",
+        "batch": "MT- 4-Year B.Tech. IV-Semester"
+      },
+      {
+        "subject": "MT-205:Metallography Techniques Practical",
+        "type": "Overload",
+        "credits": "3.00",
+        "semester": "2018-19, EVEN",
+        "batch": "MT- 5-Year IDD IV-Semester"
+      },
+      {
+        "subject": "MT-205:Metallography Techniques Practical",
+        "type": "Overload",
+        "credits": "3.00",
+        "semester": "2018-19, EVEN",
+        "batch": "MT- 4-Year B.Tech. IV-Semester"
+      },
+      {
+        "subject": "MT-205:Metallography Techniques Practical",
+        "type": "Overload",
+        "credits": "3.00",
+        "semester": "2017-18, EVEN",
+        "batch": "MT- 5-Year IDD IV-Semester"
+      },
+      {
+        "subject": "MT-205:Metallography Techniques Practical",
+        "type": "Overload",
+        "credits": "3.00",
+        "semester": "2017-18, EVEN",
+        "batch": "MT- 4-Year B.Tech. IV-Semester"
+      },
+      {
+        "subject": "MT-205:Metallography Techniques Practical",
+        "type": "Overload",
+        "credits": "3.00",
+        "semester": "2016-17, EVEN",
+        "batch": "MT- 5-Year IDD IV-Semester"
+      },
+      {
+        "subject": "MT-205:Metallography Techniques Practical",
+        "type": "Overload",
+        "credits": "3.00",
+        "semester": "2016-17, EVEN",
+        "batch": "MT- 4-Year B.Tech. IV-Semester"
+      },
+      {
+        "subject": "MT-205:Transport Phenomena Practical",
+        "type": "Compulsory",
+        "credits": "3.00",
+        "semester": "2015-16, EVEN",
+        "batch": "MT- 5-Year IDD IV-Semester"
+      },
+      {
+        "subject": "MT-205:Transport Phenomena Practical",
+        "type": "Compulsory",
+        "credits": "3.00",
+        "semester": "2015-16, EVEN",
+        "batch": "MT- 4-Year B.Tech. IV-Semester"
+      }
+    ]
+  },
+  "MS-201": {
+    "code": "MS-201",
+    "name": "Phase Diagrams and Phase Transformations",
+    "credits": "9.00",
+    "ltp": "3-0-0",
+    "department": "School of Materials Science and Technology",
+    "professor": "Dr. Shrawan Kumar Mishra",
+    "batches": [
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformation",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, SUPPLEMENTARY",
+        "batch": "MS-Supplementary 2025-26"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, SUPPLEMENTARY",
+        "batch": "MT-Supplementary 2025-26"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "3.00",
+        "semester": "2026-27, ODD",
+        "batch": "MS- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MS- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "BC- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PH- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MN- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MA- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformation",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, SUMMER",
+        "batch": "MS-Summer Term 2024-25"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformation",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformation",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MS- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformation",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformation",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformation",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformation",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformation",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MN- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformation",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformation",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformation",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformation",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MS- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformation",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformation",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformation",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformation",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformation",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformation",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MN- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformation",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformation",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformation",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformation",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "MS- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformation",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformation",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformation",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformation",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "MN- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformation",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "MA- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "BC- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "EE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "MS- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "MN- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "PH- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "ME- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "MS- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "MS- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "12.00",
+        "semester": "2018-19, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "12.00",
+        "semester": "2018-19, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "12.00",
+        "semester": "2018-19, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "12.00",
+        "semester": "2018-19, ODD",
+        "batch": "MS- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "12.00",
+        "semester": "2018-19, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "12.00",
+        "semester": "2018-19, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams and Phase Transformations",
+        "type": "ST",
+        "credits": "12.00",
+        "semester": "2018-19, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "12.00",
+        "semester": "2017-18, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "12.00",
+        "semester": "2017-18, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "12.00",
+        "semester": "2017-18, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "12.00",
+        "semester": "2017-18, ODD",
+        "batch": "MS- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "12.00",
+        "semester": "2016-17, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "12.00",
+        "semester": "2016-17, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MS-201:Phase Diagrams & Phase Transformations",
+        "type": "Compulsory",
+        "credits": "12.00",
+        "semester": "2016-17, ODD",
+        "batch": "MS- 5-Year IDD III-Semester"
+      }
+    ]
+  },
+  "BM-501": {
+    "code": "BM-501",
+    "name": "BioMEMS and Biosensors",
+    "credits": "3.00",
+    "ltp": "3-0-0",
+    "department": "School of Biomedical Engineering",
+    "professor": "Dr. Gowri Manohari Balachander",
+    "batches": [
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "3.00",
+        "semester": "2026-27, ODD",
+        "batch": "BM- 2-Year M.Tech I-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2026-27, ODD",
+        "batch": "BM- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "3.00",
+        "semester": "2025-26, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MS- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "3.00",
+        "semester": "2025-26, ODD",
+        "batch": "BC- Ph.D. Admitted in 2025-26 ODD SEM"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "BC- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "BC- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CY- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PH- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PH- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MT- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "3.00",
+        "semester": "2025-26, ODD",
+        "batch": "CH- Ph.D. Admitted in 2025-26 ODD SEM"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "3.00",
+        "semester": "2025-26, ODD",
+        "batch": "BM- Ph.D. Admitted in 2025-26 ODD SEM"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "BM- Ph.D. Admitted in 2024-25 EVEN SEM"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "3.00",
+        "semester": "2025-26, ODD",
+        "batch": "BM- 2-Year M.Tech I-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "BM- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CR- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "AR- 5-Year B.Arch. IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MN- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MN- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "ME- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EE- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MA- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MA- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PY- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, SUMMER",
+        "batch": "BM-Summer Term 2024-25"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "PH- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "BC- Ph.D. Admitted in 2023-24 EVEN SEM"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "BC- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CH- Ph.D. Admitted in 2024-25 ODD SEM"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "BM- Ph.D. Admitted in 2024-25 ODD SEM"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "BM- 2-Year M.Tech I-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "BM- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "ME- Ph.D. Admitted in 2024-25 ODD SEM"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MS- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "BC- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CE- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MT- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CH- Ph.D. Admitted in 2023-24 ODD SEM"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "BM- Ph.D. Admitted in 2023-24 ODD SEM"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "BM- 2-Year M.Tech I-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "BM- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CR- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "ME- Ph.D. Admitted in 2023-24 ODD SEM"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "ME- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CS- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MA- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "PY- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMs and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "BM-501:BioMEMs and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "BC- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMs and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "PH- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMs and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMs and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "BM- Ph.D. Admitted in 2022-23 ODD SEM"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "BM- 2-Year M.Tech I-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "BM- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "HS- Ph.D. Admitted in 2022-23 ODD SEM"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "ME- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "ME- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CR- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "PY- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CE- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "BC- Ph.D. Admitted in 2021-22 ODD SEM"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "BC- Ph.D. Admitted in 2020-21 EVEN SEM"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "BC- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "MT- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "EC- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "EE- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "EE- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "BM- Ph.D. Admitted in 2021-22 ODD SEM"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "BM- Ph.D. Admitted in 2020-21 EVEN SEM"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "BM- 2-Year M.Tech I-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "BM- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "MN- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "PH- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "PH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "ME- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "PY- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "BC- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "MT- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CY- Ph.D. Admitted in 2019-20 EVEN SEM"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CY- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "EE- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "MS- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "BM- Ph.D. Admitted in 2020-21 ODD SEM"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "BM- Ph.D. Admitted in 2019-20 EVEN SEM"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "BM- 2-Year M.Tech I-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "BM- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "PH- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "MS- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "PH- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "BM- Ph.D. Admitted in 2019-20 ODD SEM"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "BM- 2-Year M.Tech I-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "BM- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CR- Ph.D. Admitted in 2019-20 ODD SEM"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CR- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "ME- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CY- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "EC- Ph.D. Admitted in 2019-20 ODD SEM"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "PY- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "EC- Ph.D. Admitted in 2018-19 ODD SEM"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "BM- Ph.D. Admitted in 2018-19 ODD SEM"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "BM- 2-Year M.Tech I-Semester"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "BC- Ph.D. Admitted in 2018-19 ODD SEM"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "BC- Ph.D. Admitted in 2017-18 EVEN SEM"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "BM- Ph.D. Admitted in 2017-18 ODD SEM"
+      },
+      {
+        "subject": "BM-501:BioMEMS and Biosensors",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "BM- 2-Year M.Tech I-Semester"
+      }
+    ]
+  },
+  "BM-511": {
+    "code": "BM-511",
+    "name": "Artificial Intelligence and its Application to Biomedical Engineering",
+    "credits": "3.00",
+    "ltp": "3-0-0",
+    "department": "School of Biomedical Engineering",
+    "professor": "Dr. A. R. Jac Fredo",
+    "batches": [
+      {
+        "subject": "BM-511:Artificial Intelligence & its application to Biomedical Engg.",
+        "type": "Department Elective",
+        "credits": "3.00",
+        "semester": "2026-27, ODD",
+        "batch": "BM- 2-Year M.Tech I-Semester"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2026-27, ODD",
+        "batch": "BM- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "3.00",
+        "semester": "2025-26, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "3.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- Ph.D. Admitted in 2025-26 ODD SEM"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "3.00",
+        "semester": "2025-26, ODD",
+        "batch": "CH- Ph.D. Admitted in 2025-26 ODD SEM"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "3.00",
+        "semester": "2025-26, ODD",
+        "batch": "BM- Ph.D. Admitted in 2025-26 ODD SEM"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "BM- Ph.D. Admitted in 2024-25 EVEN SEM"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "3.00",
+        "semester": "2025-26, ODD",
+        "batch": "BM- 2-Year M.Tech I-Semester"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "BM- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "3.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- Ph.D. Admitted in 2025-26 ODD SEM"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "3.00",
+        "semester": "2025-26, ODD",
+        "batch": "MA- Ph.D. Admitted in 2025-26 ODD SEM"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "BC- Ph.D. Admitted in 2024-25 ODD SEM"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "BM- Ph.D. Admitted in 2024-25 ODD SEM"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "BM- Ph.D. Admitted in 2023-24 EVEN SEM"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "BM- 2-Year M.Tech I-Semester"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "BM- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "BC- Ph.D. Admitted in 2023-24 ODD SEM"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "BM- Ph.D. Admitted in 2023-24 ODD SEM"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "BM- Ph.D. Admitted in 2022-23 EVEN SEM"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "BM- 2-Year M.Tech I-Semester"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "BM- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "BC- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "BM- Ph.D. Admitted in 2022-23 ODD SEM"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "BM- 2-Year M.Tech I-Semester"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "BM- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "ME- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "CS- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "MA- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "BC- Ph.D. Admitted in 2020-21 EVEN SEM"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "BM- Ph.D. Admitted in 2021-22 ODD SEM"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "BM- 2-Year M.Tech I-Semester"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "BM- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "ME- Ph.D. Admitted in 2019-20 EVEN SEM"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "BM- 2-Year M.Tech I-Semester"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "BM- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "PH- Ph.D. Admitted in 2018-19 EVEN SEM"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "BM- Ph.D. Admitted in 2019-20 ODD SEM"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "BM- Ph.D. Admitted in 2018-19 EVEN SEM"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "BM- 2-Year M.Tech I-Semester"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "BM- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "EC- Ph.D. Admitted in 2019-20 ODD SEM"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its Application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "HS- Ph.D. Admitted in 2019-20 ODD SEM"
+      },
+      {
+        "subject": "BM-511:Radiation Biology and its Biomedical Application",
+        "type": "Department Elective",
+        "credits": "11.00",
+        "semester": "2018-19, EVEN",
+        "batch": "BM- 5-Year IDD VIII-Semester"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "PH- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "BM- Ph.D. Admitted in 2018-19 ODD SEM"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "BM- 2-Year M.Tech I-Semester"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence & its application to Biomedical Engg.",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "BM- Ph.D. Admitted in 2017-18 ODD SEM"
+      },
+      {
+        "subject": "BM-511:Artificial Intelligence and its application to Biomedical Engineering",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "BM- 2-Year M.Tech I-Semester"
+      }
+    ]
+  },
+  "PH-441": {
+    "code": "PH-441",
+    "name": "Natural Products and Phytotherapy",
+    "credits": "9.00",
+    "ltp": "3-0-0",
+    "department": "Department of Pharmaceutical Engineering & Technology",
+    "professor": "Dr Sunil Kumar Mishra",
+    "batches": [
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, SUPPLEMENTARY",
+        "batch": "CE-Supplementary 2025-26"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2026-27, ODD",
+        "batch": "PH- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2026-27, ODD",
+        "batch": "PH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "BC- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PH- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MN- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MA- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "PH- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "PH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "BC- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "BC- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "PH- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "PH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "BC- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "PH- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "PH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "PH- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "PH-441:Natural Products and Phytotherapy",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "PH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "MA- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "EE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "MN- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "PH- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "PH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "PH- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "PH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "MN- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "MA- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "BC- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "CY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "PH- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "PH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "BC- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "PH- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "PH-441:Plant Tissue Culture",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "PH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "PH-4410:P.G. Project / Dissertation",
+        "type": "Compulsory",
+        "credits": "6.00",
+        "semester": "2016-17, EVEN",
+        "batch": "PH- 5-Year IDD VIII-Semester"
+      },
+      {
+        "subject": "PH-4411:Comprehensive Viva-voce",
+        "type": "Compulsory",
+        "credits": "2.00",
+        "semester": "2016-17, EVEN",
+        "batch": "PH- 5-Year IDD VIII-Semester"
+      },
+      {
+        "subject": "PH-4410:P.G. Project / Dissertation",
+        "type": "Compulsory",
+        "credits": "6.00",
+        "semester": "2015-16, EVEN",
+        "batch": "PH- 5-Year IDD VIII-Semester"
+      },
+      {
+        "subject": "PH-4411:Comprehensive Viva-voce",
+        "type": "Compulsory",
+        "credits": "2.00",
+        "semester": "2015-16, EVEN",
+        "batch": "PH- 5-Year IDD VIII-Semester"
+      }
+    ]
+  },
+  "PH-411": {
+    "code": "PH-411",
+    "name": "Biopharmaceutics",
+    "credits": "9.00",
+    "ltp": "3-0-0",
+    "department": "Department of Pharmaceutical Engineering & Technology",
+    "professor": "Dr Ashish Kumar Agrawal",
+    "batches": [
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2026-27, ODD",
+        "batch": "PH- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2026-27, ODD",
+        "batch": "PH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "BC- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PH- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MN- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MA- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "PH- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "PH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "BC- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "PH- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "PH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "PH- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "PH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, SUMMER",
+        "batch": "PH-Summer Term 2021-22"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "MA- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "BC- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "EE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "MN- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "PH- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "PH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "MA- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "BC- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "MN- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "PH- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "PH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "PH- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "PH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "MN- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "MA- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "PH- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "PH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, SUMMER",
+        "batch": "PH-Summer Term 2017-18"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "PH- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "PH-411:Biopharmaceutics",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "PH- 4-Year B.Tech. VII-Semester"
+      }
+    ]
+  },
+  "CHE-312": {
+    "code": "CHE-312",
+    "name": "Process Engineering and Plant Design",
+    "credits": "9.00",
+    "ltp": "3-0-0",
+    "department": "Department of Chemical Engineering and Technology",
+    "professor": "Dr. Sweta",
+    "batches": [
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2026-27, ODD",
+        "batch": "IITBHU-MNR"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2026-27, ODD",
+        "batch": "CH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "IITBHU-MNR"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "BC- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PH- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MN- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MA- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "IITBHU-MNR"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "PH- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "BC- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "IITBHU-MNR"
+      },
+      {
+        "subject": "CHE-312:Process Engineering & Plant Design",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "CHE-312:Process Engineering & Plant Design",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "BC- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CY- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering & Plant Design",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "PH- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering & Plant Design",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering & Plant Design",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering & Plant Design",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "CH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2019-20, EVEN",
+        "batch": "CH- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering & Plant Design",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, EVEN",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "CHE-312:Process Engineering & Plant Design",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, EVEN",
+        "batch": "CE- 5-Year IDD VIII-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering & Plant Design",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, EVEN",
+        "batch": "CE- 4-Year B.Tech. VIII-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering & Plant Design",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, EVEN",
+        "batch": "PH- 4-Year B.Tech. VIII-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering & Plant Design",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, EVEN",
+        "batch": "BM- 5-Year IDD VIII-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering & Plant Design",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, EVEN",
+        "batch": "CH- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering & Plant Design",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, EVEN",
+        "batch": "CR- 5-Year IDD X-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering & Plant Design",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, EVEN",
+        "batch": "MN- 5-Year IDD VIII-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering & Plant Design",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, EVEN",
+        "batch": "MN- 4-Year B.Tech. VIII-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering & Plant Design",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, EVEN",
+        "batch": "ME- 5-Year IDD VIII-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering & Plant Design",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, EVEN",
+        "batch": "ME- 4-Year B.Tech. VIII-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering & Plant Design",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, EVEN",
+        "batch": "CY- 5-Year IDD VIII-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering & Plant Design",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, EVEN",
+        "batch": "CS- 4-Year B.Tech. VIII-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering & Plant Design",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, EVEN",
+        "batch": "MA- 5-Year IDD VIII-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering & Plant Design",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2018-19, EVEN",
+        "batch": "PY- 5-Year IDD VIII-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2017-18, EVEN",
+        "batch": "CH- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "CHE-312:Process Engineering and Plant Design",
+        "type": "MNR",
+        "credits": "9.00",
+        "semester": "2016-17, EVEN",
+        "batch": "CH- 4-Year B.Tech. VI-Semester"
+      }
+    ]
+  },
+  "CHE-451": {
+    "code": "CHE-451",
+    "name": "Heterogeneous Catalysis",
+    "credits": "9.00",
+    "ltp": "3-0-0",
+    "department": "Department of Chemical Engineering and Technology",
+    "professor": "Dr. Sanjay Katheria",
+    "batches": [
+      {
+        "subject": "CHE-451:Heterogeneous Catalysis",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, SUPPLEMENTARY",
+        "batch": "PH-Supplementary 2025-26"
+      },
+      {
+        "subject": "CHE-451:Heterogeneous Catalysis",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2026-27, ODD",
+        "batch": "CH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CHE-451:Heterogeneous Catalysis",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "CHE-451:Heterogeneous Catalysis",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "BC- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHE-451:Heterogeneous Catalysis",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "PH- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHE-451:Heterogeneous Catalysis",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHE-451:Heterogeneous Catalysis",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CHE-451:Heterogeneous Catalysis",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHE-451:Heterogeneous Catalysis",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHE-451:Heterogeneous Catalysis",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "CH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CHE-451:Heterogeneous Catalysis",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CHE-451:Heterogeneous Catalysis",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CHE-451:Heterogeneous Catalysis",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CHE-451:Heterogeneous Catalysis",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "CH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CHE-451:Heterogeneous Catalysis",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2017-18, SUMMER",
+        "batch": "CH-Summer Term 2017-18"
+      },
+      {
+        "subject": "CHE-451:Heterogeneous Catalysis",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "CH- 4-Year B.Tech. VII-Semester"
+      }
+    ]
+  },
+  "MCR-202": {
+    "code": "MCR-202",
+    "name": "Thermodynamics of Materials",
+    "credits": "3.00",
+    "ltp": "3-0-0",
+    "department": "Department of Ceramic Engineering",
+    "professor": "Dr. Md. Imteyaz Ahmad",
+    "batches": [
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, SUPPLEMENTARY",
+        "batch": "MS-Supplementary 2025-26"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, SUPPLEMENTARY",
+        "batch": "MT-Supplementary 2025-26"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, SUPPLEMENTARY",
+        "batch": "CR-Supplementary 2025-26"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, SUPPLEMENTARY",
+        "batch": "CY-Supplementary 2025-26"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics of Materials",
+        "type": "Compulsory",
+        "credits": "3.00",
+        "semester": "2026-27, ODD",
+        "batch": "CR- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "BC- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PH- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CR- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CR- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MN- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MA- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, SUMMER",
+        "batch": "CR-Summer Term 2024-25"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CR- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CR- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CR- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CR- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "PY- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "CY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "CR- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "CR- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "MA- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CR- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CR- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "BC- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "MN- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "PH- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CR- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CR- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CR- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CR- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2018-19, ODD",
+        "batch": "CR- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2018-19, ODD",
+        "batch": "CR- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2017-18, ODD",
+        "batch": "CR- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2017-18, ODD",
+        "batch": "CR- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2016-17, ODD",
+        "batch": "CR- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "MCR-202:Thermodynamics and Phase Equilibria in Ceramic Systems",
+        "type": "ST",
+        "credits": "11.00",
+        "semester": "2016-17, ODD",
+        "batch": "CR- 4-Year B.Tech. III-Semester"
+      }
+    ]
+  },
+  "MA-221": {
+    "code": "MA-221",
+    "name": "Real and Complex Analysis",
+    "credits": "3.00",
+    "ltp": "3-0-0",
+    "department": "Department of Mathematical Sciences",
+    "professor": "-",
+    "batches": [
+      {
+        "subject": "MA-221:Real and Complex Analysis",
+        "type": "Compulsory",
+        "credits": "3.00",
+        "semester": "2026-27, ODD",
+        "batch": "MA- 4-Year B.Tech. III-Semester"
+      }
+    ]
+  },
+  "MA-455": {
+    "code": "MA-455",
+    "name": "Statistical Inference",
+    "credits": "11.00",
+    "ltp": "3-1-0",
+    "department": "Department of Mathematical Sciences",
+    "professor": "-",
+    "batches": [
+      {
+        "subject": "MA-455:Statistical Inference",
+        "type": "Department Elective",
+        "credits": "11.00",
+        "semester": "2026-27, ODD",
+        "batch": "MA- 5-Year IDD VII-Semester"
+      }
+    ]
+  },
+  "ME-343": {
+    "code": "ME-343",
+    "name": "Non-Conventional Energy Resources",
+    "credits": "9.00",
+    "ltp": "3-0-0",
+    "department": "Department of Mechanical Engineering",
+    "professor": "Dr. Shailendra K. Shukla",
+    "batches": [
+      {
+        "subject": "ME-343:Non-Conventional Energy Resources",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, SUPPLEMENTARY",
+        "batch": "ME-Supplementary 2025-26"
+      },
+      {
+        "subject": "ME-343:Non-Conventional Energy Resources",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, EVEN",
+        "batch": "ME- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "ME-343:Non-Conventional Energy Resources",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, EVEN",
+        "batch": "ME- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "ME-343:Non-Conventional Energy Resources",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, EVEN",
+        "batch": "ME- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "ME-343:Non-Conventional Energy Resources",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, EVEN",
+        "batch": "ME- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "ME-343:Non-Conventional Energy Resources",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "ME-343:Non-Conventional Energy Resources",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "ME-343:Non-Conventional Energy Resources",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "ME-343:Non-Conventional Energy Resources",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "ME-343:Non-Conventional Energy Resources",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "EE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "ME-343:Non-Conventional Energy Resources",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "ME-343:Non-Conventional Energy Resources",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "ME-343:Non-Conventional Energy Resources",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "ME-343:Non-Conventional Energy Resources",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MA- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "ME-343:Non-Conventional Energy Resources",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, EVEN",
+        "batch": "ME- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "ME-343:Non-Conventional Energy Resources",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, EVEN",
+        "batch": "ME- 4-Year B.Tech. VI-Semester"
+      }
+    ]
+  },
+  "MS-204": {
+    "code": "MS-204",
+    "name": "Synthesis and Processing of Engineering Materials",
+    "credits": "3.00",
+    "ltp": "3-0-0",
+    "department": "School of Materials Science and Technology",
+    "professor": "Dr. Sanjay Singh",
+    "batches": [
+      {
+        "subject": "MS-204:Synthesis and Processing of Engineering Materials",
+        "type": "Compulsory",
+        "credits": "3.00",
+        "semester": "2026-27, ODD",
+        "batch": "MS- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "MS-204:Metal and Alloys",
+        "type": "Overload",
+        "credits": "9.00",
+        "semester": "2025-26, EVEN",
+        "batch": "MS- 5-Year IDD IV-Semester"
+      },
+      {
+        "subject": "MS-204:Metal and Alloys",
+        "type": "Overload",
+        "credits": "9.00",
+        "semester": "2024-25, SUMMER",
+        "batch": "MS-Summer Term 2024-25"
+      },
+      {
+        "subject": "MS-204:Metal and Alloys",
+        "type": "Overload",
+        "credits": "9.00",
+        "semester": "2024-25, EVEN",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MS-204:Metal and Alloys",
+        "type": "Overload",
+        "credits": "9.00",
+        "semester": "2024-25, EVEN",
+        "batch": "MS- 5-Year IDD IV-Semester"
+      },
+      {
+        "subject": "MS-204:Metal and Alloys",
+        "type": "Overload",
+        "credits": "9.00",
+        "semester": "2024-25, EVEN",
+        "batch": "CY- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MS-204:Metal and Alloys",
+        "type": "Overload",
+        "credits": "9.00",
+        "semester": "2024-25, EVEN",
+        "batch": "MT- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MS-204:Metal and Alloys",
+        "type": "Overload",
+        "credits": "9.00",
+        "semester": "2024-25, EVEN",
+        "batch": "MT- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MS-204:Metal and Alloys",
+        "type": "Overload",
+        "credits": "9.00",
+        "semester": "2024-25, EVEN",
+        "batch": "CR- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MS-204:Metal and Alloys",
+        "type": "Overload",
+        "credits": "9.00",
+        "semester": "2024-25, EVEN",
+        "batch": "CR- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MS-204:Metal and Alloys",
+        "type": "Overload",
+        "credits": "9.00",
+        "semester": "2024-25, EVEN",
+        "batch": "MN- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MS-204:Metal and Alloys",
+        "type": "Overload",
+        "credits": "9.00",
+        "semester": "2024-25, EVEN",
+        "batch": "MN- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MS-204:Metal and Alloys",
+        "type": "Overload",
+        "credits": "9.00",
+        "semester": "2024-25, EVEN",
+        "batch": "PY- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MS-204:Metal and Alloys",
+        "type": "Overload",
+        "credits": "9.00",
+        "semester": "2023-24, EVEN",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "MS-204:Metal and Alloys",
+        "type": "Overload",
+        "credits": "9.00",
+        "semester": "2023-24, EVEN",
+        "batch": "MS- 5-Year IDD IV-Semester"
+      },
+      {
+        "subject": "MS-204:Metal and Alloys",
+        "type": "Overload",
+        "credits": "9.00",
+        "semester": "2023-24, EVEN",
+        "batch": "CY- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MS-204:Metal and Alloys",
+        "type": "Overload",
+        "credits": "9.00",
+        "semester": "2023-24, EVEN",
+        "batch": "MT- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MS-204:Metal and Alloys",
+        "type": "Overload",
+        "credits": "9.00",
+        "semester": "2023-24, EVEN",
+        "batch": "MT- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MS-204:Metal and Alloys",
+        "type": "Overload",
+        "credits": "9.00",
+        "semester": "2023-24, EVEN",
+        "batch": "CR- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MS-204:Metal and Alloys",
+        "type": "Overload",
+        "credits": "9.00",
+        "semester": "2023-24, EVEN",
+        "batch": "CR- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MS-204:Metal and Alloys",
+        "type": "Overload",
+        "credits": "9.00",
+        "semester": "2023-24, EVEN",
+        "batch": "MN- 5-Year IDD VI-Semester"
+      },
+      {
+        "subject": "MS-204:Metal and Alloys",
+        "type": "Overload",
+        "credits": "9.00",
+        "semester": "2023-24, EVEN",
+        "batch": "MN- 4-Year B.Tech. VI-Semester"
+      },
+      {
+        "subject": "MS-204:Metal and Alloys",
+        "type": "Overload",
+        "credits": "9.00",
+        "semester": "2022-23, EVEN",
+        "batch": "MS- 5-Year IDD IV-Semester"
+      },
+      {
+        "subject": "MS-204:Metal and Alloys",
+        "type": "Overload",
+        "credits": "9.00",
+        "semester": "2021-22, EVEN",
+        "batch": "MS- 5-Year IDD IV-Semester"
+      },
+      {
+        "subject": "MS-204:Metal and Alloys",
+        "type": "Overload",
+        "credits": "9.00",
+        "semester": "2020-21, EVEN",
+        "batch": "MS- 5-Year IDD IV-Semester"
+      },
+      {
+        "subject": "MS-204:Metal and Alloys",
+        "type": "Overload",
+        "credits": "9.00",
+        "semester": "2019-20, EVEN",
+        "batch": "MS- 5-Year IDD IV-Semester"
+      }
+    ]
+  },
+  "CSE-574": {
+    "code": "CSE-574",
+    "name": "Cloud Computing",
+    "credits": "3.00",
+    "ltp": "3-0-0",
+    "department": "Department of Computer Science and Engineering",
+    "professor": "Dr. Prasenjit Chanak",
+    "batches": [
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2026-27, ODD",
+        "batch": "CS- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2026-27, ODD",
+        "batch": "CS- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "3.00",
+        "semester": "2025-26, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EC- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MS- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "BC- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CY- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PH- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MT- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MT- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "BM- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CR- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CR- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "AR- 5-Year B.Arch. VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MN- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MN- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "ME- Ph.D. Admitted in 2024-25 ODD SEM"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "ME- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "ME- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EE- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EE- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MA- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PY- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "EC- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CE- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "AR- 5-Year B.Arch. VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "ME- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "ME- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "EE- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CS- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MA- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "EC- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CE- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CE- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "AR- 5-Year B.Arch. VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "ME- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "ME- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "EE- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "EE- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CS- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MA- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "EC- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "MS- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "PH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "CE- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "CE- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "MT- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "CH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "BM- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "MN- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "ME- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "EE- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "EE- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "CS- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "MA- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "MA- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CR- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "PY- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CE- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "EE- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "CSE-574:Cloud Computing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "MN- 5-Year IDD IX-Semester"
+      }
+    ]
+  },
+  "EP-512": {
+    "code": "EP-512",
+    "name": "Space Weather",
+    "credits": "3.00",
+    "ltp": "3-0-0",
+    "department": "Department of Physics",
+    "professor": "Dr. Arvind Kumar Tripathi",
+    "batches": [
+      {
+        "subject": "EP-512:Space Weather",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2026-27, ODD",
+        "batch": "PY- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "EP-512:Space Weather",
+        "type": "Department Elective",
+        "credits": "3.00",
+        "semester": "2025-26, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "EP-512:Space Weather",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "EP-512:Space Weather",
+        "type": "Department Elective",
+        "credits": "3.00",
+        "semester": "2025-26, ODD",
+        "batch": "CH- Ph.D. Admitted in 2025-26 ODD SEM"
+      },
+      {
+        "subject": "EP-512:Space Weather",
+        "type": "Department Elective",
+        "credits": "3.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- Ph.D. Admitted in 2025-26 ODD SEM"
+      },
+      {
+        "subject": "EP-512:Space Weather",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- Ph.D. Admitted in 2020-21 ODD SEM"
+      },
+      {
+        "subject": "EP-512:Space Weather",
+        "type": "Department Elective",
+        "credits": "3.00",
+        "semester": "2025-26, ODD",
+        "batch": "PY- Ph.D. Admitted in 2025-26 ODD SEM"
+      },
+      {
+        "subject": "EP-512:Space Weather",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PY- Ph.D. Admitted in 2024-25 EVEN SEM"
+      },
+      {
+        "subject": "EP-512:Space Weather",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PY- Ph.D. Admitted in 2024-25 ODD SEM"
+      },
+      {
+        "subject": "EP-512:Space Weather",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PY- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "EP-512:Space Weather",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "EP-512:Space Weather",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "PY- Ph.D. Admitted in 2024-25 ODD SEM"
+      },
+      {
+        "subject": "EP-512:Space Weather",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "PY- Ph.D. Admitted in 2023-24 EVEN SEM"
+      },
+      {
+        "subject": "EP-512:Space Weather",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "PY- 2-Year M.Sc III-Semester"
+      },
+      {
+        "subject": "EP-512:Space Weather",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "PY- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "EP-512:Space Weather",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "EP-512:Space Weather",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "PY- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "EP-512:Space Weather",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "EP-512:Space Weather",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "PY- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "EP-512:Space Weather",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "EP-512:Space Weather",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "PY- Ph.D. Admitted in 2021-22 ODD SEM"
+      },
+      {
+        "subject": "EP-512:Space Weather",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "PY- Ph.D. Admitted in 2020-21 EVEN SEM"
+      },
+      {
+        "subject": "EP-512:Space Weather",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "PY- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "EP-512:Space Weather",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "EP-512:Space Weather",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "PY- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "EP-512:Space Weather",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "EP-512:Space Weather",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "PY- Ph.D. Admitted in 2019-20 ODD SEM"
+      },
+      {
+        "subject": "EP-512:Space Weather",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "PY- 5-Year IDD IX-Semester"
+      },
+      {
+        "subject": "EP-512:Space Weather",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "EP-512:Space Weather",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "PY- 5-Year IDD IX-Semester"
+      }
+    ]
+  },
+  "CE-241": {
+    "code": "CE-241",
+    "name": "Environmental Engineering-I",
+    "credits": "9.00",
+    "ltp": "3-0-0",
+    "department": "Department of Civil Engineering",
+    "professor": "Dr. Shweta Singh",
+    "batches": [
+      {
+        "subject": "CE-241:Environmental Engineering-I",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, SUPPLEMENTARY",
+        "batch": "CE-Supplementary 2025-26"
+      },
+      {
+        "subject": "CE-241:Environmental Engineering-I",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, EVEN",
+        "batch": "CE- 5-Year IDD IV-Semester"
+      },
+      {
+        "subject": "CE-241:Environmental Engineering-I",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, EVEN",
+        "batch": "CE- 4-Year B.Tech. IV-Semester"
+      },
+      {
+        "subject": "CE-241:Environmental Engineering-I",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, EVEN",
+        "batch": "CE- 5-Year IDD IV-Semester"
+      },
+      {
+        "subject": "CE-241:Environmental Engineering-I",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, EVEN",
+        "batch": "CE- 4-Year B.Tech. IV-Semester"
+      },
+      {
+        "subject": "CE-241:Environmental Engineering-I",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, EVEN",
+        "batch": "CE- 5-Year IDD IV-Semester"
+      },
+      {
+        "subject": "CE-241:Environmental Engineering-I",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, EVEN",
+        "batch": "CE- 4-Year B.Tech. IV-Semester"
+      },
+      {
+        "subject": "CE-241:Environmental Engineering-I",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, EVEN",
+        "batch": "CE- 5-Year IDD IV-Semester"
+      },
+      {
+        "subject": "CE-241:Environmental Engineering-I",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, EVEN",
+        "batch": "CE- 4-Year B.Tech. IV-Semester"
+      },
+      {
+        "subject": "CE-241:Environmental Engineering-I",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, EVEN",
+        "batch": "CE- 5-Year IDD IV-Semester"
+      },
+      {
+        "subject": "CE-241:Environmental Engineering-I",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, EVEN",
+        "batch": "CE- 4-Year B.Tech. IV-Semester"
+      },
+      {
+        "subject": "CE-241:Environmental Engineering-I",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, EVEN",
+        "batch": "CE- 5-Year IDD IV-Semester"
+      },
+      {
+        "subject": "CE-241:Environmental Engineering-I",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, EVEN",
+        "batch": "CE- 4-Year B.Tech. IV-Semester"
+      },
+      {
+        "subject": "CE-241:Environmental Engineering-I",
+        "type": "ST",
+        "credits": "10.00",
+        "semester": "2019-20, SUMMER",
+        "batch": "CE-Summer Term 2019-20"
+      },
+      {
+        "subject": "CE-241:Environmental Engineering-I",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, EVEN",
+        "batch": "CE- 5-Year IDD IV-Semester"
+      },
+      {
+        "subject": "CE-241:Environmental Engineering-I",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, EVEN",
+        "batch": "CE- 4-Year B.Tech. IV-Semester"
+      },
+      {
+        "subject": "CE-241:Environmental Engineering-I",
+        "type": "ST",
+        "credits": "10.00",
+        "semester": "2018-19, EVEN",
+        "batch": "CE- 5-Year IDD IV-Semester"
+      },
+      {
+        "subject": "CE-241:Environmental Engineering-I",
+        "type": "ST",
+        "credits": "10.00",
+        "semester": "2018-19, EVEN",
+        "batch": "CE- 4-Year B.Tech. IV-Semester"
+      },
+      {
+        "subject": "CE-241:Environmental Engineering-I",
+        "type": "ST",
+        "credits": "10.00",
+        "semester": "2017-18, EVEN",
+        "batch": "CE- 5-Year IDD IV-Semester"
+      },
+      {
+        "subject": "CE-241:Environmental Engineering-I",
+        "type": "ST",
+        "credits": "10.00",
+        "semester": "2017-18, EVEN",
+        "batch": "CE- 4-Year B.Tech. IV-Semester"
+      },
+      {
+        "subject": "CE-241:ENVIRONMENTAL ENGG.-I",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2016-17, SUMMER",
+        "batch": "CE-Summer Term 2016-17"
+      },
+      {
+        "subject": "CE-241:Environmental Engineering - I",
+        "type": "Compulsory",
+        "credits": "10.00",
+        "semester": "2016-17, EVEN",
+        "batch": "CE- 5-Year IDD IV-Semester"
+      },
+      {
+        "subject": "CE-241:Environmental Engineering - I",
+        "type": "Compulsory",
+        "credits": "10.00",
+        "semester": "2016-17, EVEN",
+        "batch": "CE- 4-Year B.Tech. IV-Semester"
+      },
+      {
+        "subject": "CE-241:Environmental Engineering - I",
+        "type": "Compulsory",
+        "credits": "10.00",
+        "semester": "2015-16, EVEN",
+        "batch": "CE- 5-Year IDD IV-Semester"
+      },
+      {
+        "subject": "CE-241:Environmental Engineering - I",
+        "type": "Compulsory",
+        "credits": "10.00",
+        "semester": "2015-16, EVEN",
+        "batch": "CE- 4-Year B.Tech. IV-Semester"
+      }
+    ]
+  },
+  "CE-201": {
+    "code": "CE-201",
+    "name": "Mechanics of Solids",
+    "credits": "3.00",
+    "ltp": "2-1-0",
+    "department": "Department of Civil Engineering",
+    "professor": "Dr. Mahendra Kumar Pal",
+    "batches": [
+      {
+        "subject": "CE-201:Mechanics of Solids",
+        "type": "Compulsory",
+        "credits": "3.00",
+        "semester": "2026-27, ODD",
+        "batch": "CE- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "CE-201:Mechanics of Solids",
+        "type": "Compulsory",
+        "credits": "8.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "CE-201:Mechanics of Solids",
+        "type": "Compulsory",
+        "credits": "8.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "CE-201:Mechanics of Solids",
+        "type": "Compulsory",
+        "credits": "8.00",
+        "semester": "2024-25, ODD",
+        "batch": "CE- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "CE-201:Mechanics of Solids",
+        "type": "Compulsory",
+        "credits": "8.00",
+        "semester": "2024-25, ODD",
+        "batch": "CE- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "CE-201:Mechanics of Solids",
+        "type": "Compulsory",
+        "credits": "8.00",
+        "semester": "2023-24, ODD",
+        "batch": "CE- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "CE-201:Mechanics of Solids",
+        "type": "Compulsory",
+        "credits": "8.00",
+        "semester": "2023-24, ODD",
+        "batch": "CE- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "CE-201:Mechanics of Solids",
+        "type": "Compulsory",
+        "credits": "8.00",
+        "semester": "2022-23, ODD",
+        "batch": "CE- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "CE-201:Mechanics of Solids",
+        "type": "Compulsory",
+        "credits": "8.00",
+        "semester": "2022-23, ODD",
+        "batch": "CE- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "CE-201:Mechanics of Solids",
+        "type": "Compulsory",
+        "credits": "8.00",
+        "semester": "2021-22, ODD",
+        "batch": "CE- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "CE-201:Mechanics of Solids",
+        "type": "Compulsory",
+        "credits": "8.00",
+        "semester": "2021-22, ODD",
+        "batch": "CE- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "CE-201:Mechanics of Solids",
+        "type": "Compulsory",
+        "credits": "8.00",
+        "semester": "2020-21, ODD",
+        "batch": "CE- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "CE-201:Mechanics of Solids",
+        "type": "Compulsory",
+        "credits": "8.00",
+        "semester": "2020-21, ODD",
+        "batch": "CE- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "CE-201:Mechanics of Solids",
+        "type": "Compulsory",
+        "credits": "8.00",
+        "semester": "2019-20, ODD",
+        "batch": "CE- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "CE-201:Mechanics of Solids",
+        "type": "Compulsory",
+        "credits": "8.00",
+        "semester": "2019-20, ODD",
+        "batch": "CE- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "CE-201:Mechanics of Solids",
+        "type": "Compulsory",
+        "credits": "6.00",
+        "semester": "2018-19, ODD",
+        "batch": "CE- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "CE-201:Mechanics of Solids",
+        "type": "Compulsory",
+        "credits": "6.00",
+        "semester": "2018-19, ODD",
+        "batch": "CE- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "CE-201:Mechanics of Solids",
+        "type": "Compulsory",
+        "credits": "6.00",
+        "semester": "2017-18, ODD",
+        "batch": "CE- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "CE-201:Mechanics of Solids",
+        "type": "Compulsory",
+        "credits": "6.00",
+        "semester": "2017-18, ODD",
+        "batch": "CE- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "CE-201:MECHANICS OF SOLIDS",
+        "type": "Compulsory",
+        "credits": "11.00",
+        "semester": "2016-17, SUMMER",
+        "batch": "CE-Summer Term 2016-17"
+      },
+      {
+        "subject": "CE-201:Mechanics of Solids",
+        "type": "Compulsory",
+        "credits": "11.00",
+        "semester": "2016-17, ODD",
+        "batch": "CE- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "CE-201:Mechanics of Solids",
+        "type": "Compulsory",
+        "credits": "11.00",
+        "semester": "2016-17, ODD",
+        "batch": "CE- 4-Year B.Tech. III-Semester"
+      },
+      {
+        "subject": "CE-201:Mechanics of Solids",
+        "type": "Compulsory",
+        "credits": "11.00",
+        "semester": "2015-16, SUMMER",
+        "batch": "CE-Summer Term 2015-16"
+      }
+    ]
+  },
+  "CHI-421": {
+    "code": "CHI-421",
+    "name": "Solid State Chemistry",
+    "credits": "3.00",
+    "ltp": "3-0-0",
+    "department": "Department of Chemistry",
+    "professor": "Dr. Asha Gupta",
+    "batches": [
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "3.00",
+        "semester": "2026-27, ODD",
+        "batch": "CY- 2-Year M.Sc III-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2026-27, ODD",
+        "batch": "CY- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "3.00",
+        "semester": "2025-26, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "BC- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "3.00",
+        "semester": "2025-26, ODD",
+        "batch": "CY- Ph.D. Admitted in 2025-26 ODD SEM"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CY- Ph.D. Admitted in 2024-25 EVEN SEM"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CY- 2-Year M.Sc III-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CY- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PH- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MN- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MA- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CY- Ph.D. Admitted in 2024-25 ODD SEM"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CY- Ph.D. Admitted in 2023-24 EVEN SEM"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CY- 2-Year M.Sc III-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CY- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CR- Ph.D. Admitted in 2024-25 ODD SEM"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MN- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MN- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MS- Ph.D. Admitted in 2023-24 ODD SEM"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CY- Ph.D. Admitted in 2023-24 ODD SEM"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CY- 2-Year M.Sc III-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CY- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MN- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "CY- Ph.D. Admitted in 2022-23 ODD SEM"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "CY- 2-Year M.Sc III-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "CY- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CY- Ph.D. Admitted in 2021-22 ODD SEM"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CY- Ph.D. Admitted in 2020-21 EVEN SEM"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CY- 2-Year M.Sc III-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CY- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "BC- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CY- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "EE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "MS- Ph.D. Admitted in 2019-20 ODD SEM"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CY- Ph.D. Admitted in 2019-20 ODD SEM"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CY- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "EE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "CY- Ph.D. Admitted in 2018-19 ODD SEM"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "CY- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "MN- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "MA- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-421:Solid State Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "CY- 5-Year IDD VII-Semester"
+      }
+    ]
+  },
+  "CHI-403": {
+    "code": "CHI-403",
+    "name": "Nuclear & Radiation Chemistry",
+    "credits": "3.00",
+    "ltp": "3-0-0",
+    "department": "Department of Chemistry",
+    "professor": "Prof  Dhanesh Tiwari",
+    "batches": [
+      {
+        "subject": "CHI-403:Nuclear & Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "3.00",
+        "semester": "2026-27, ODD",
+        "batch": "CY- 2-Year M.Sc III-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2026-27, ODD",
+        "batch": "CY- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "BC- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CY- 2-Year M.Sc III-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CY- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PH- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MN- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MA- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CY- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MN- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CY- Ph.D. Admitted in 2023-24 ODD SEM"
+      },
+      {
+        "subject": "CHI-403:Nuclear & Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CY- 2-Year M.Sc III-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CY- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MN- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "CY- Ph.D. Admitted in 2022-23 ODD SEM"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "CY- 2-Year M.Sc III-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "CY- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "MN- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "MA- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CY- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "EE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "IITBHU-PHD"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "BC- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CY- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "EE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "PH- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "PH- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "MN- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CY- Ph.D. Admitted in 2019-20 ODD SEM"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "CY- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "EE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "EE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "CY- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "BC- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "MN- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "PY- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "CY- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "MA- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "ME- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "ME- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "CS- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "CE- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "EC- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "CH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "PH- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "PH- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "CR- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "CR- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "MS- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "MT- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "CHI-403:Nuclear and Radiation Chemistry",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "MN- 4-Year B.Tech. VII-Semester"
+      }
+    ]
+  },
+  "ME-411": {
+    "code": "ME-411",
+    "name": "Finite Element Method",
+    "credits": "9.00",
+    "ltp": "3-0-0",
+    "department": "Department of Mechanical Engineering",
+    "professor": "Dr. Debashis Khan",
+    "batches": [
+      {
+        "subject": "ME-411:Finite Element Method",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, SUPPLEMENTARY",
+        "batch": "ME-Supplementary 2025-26"
+      },
+      {
+        "subject": "ME-411:Finite Element Method",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2025-26, EVEN",
+        "batch": "ME- 4-Year B.Tech. VIII-Semester"
+      },
+      {
+        "subject": "ME-411:Finite Element Method",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, SUMMER",
+        "batch": "ME-Summer Term 2024-25"
+      },
+      {
+        "subject": "ME-411:Finite Element Method",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2024-25, EVEN",
+        "batch": "ME- 4-Year B.Tech. VIII-Semester"
+      },
+      {
+        "subject": "ME-411:Finite Element Method",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2023-24, EVEN",
+        "batch": "ME- 4-Year B.Tech. VIII-Semester"
+      },
+      {
+        "subject": "ME-411:Finite Element Method",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, SUMMER",
+        "batch": "ME-Summer Term 2022-23"
+      },
+      {
+        "subject": "ME-411:Finite Element Method",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2022-23, EVEN",
+        "batch": "ME- 4-Year B.Tech. VIII-Semester"
+      },
+      {
+        "subject": "ME-411:Finite Element Method",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2021-22, EVEN",
+        "batch": "ME- 4-Year B.Tech. VIII-Semester"
+      },
+      {
+        "subject": "ME-411:Finite Element Method",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, SUMMER",
+        "batch": "ME-Summer Term 2020-21"
+      },
+      {
+        "subject": "ME-411:Finite Element Method",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2020-21, EVEN",
+        "batch": "ME- 4-Year B.Tech. VIII-Semester"
+      },
+      {
+        "subject": "ME-411:Finite Element Method",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2019-20, EVEN",
+        "batch": "ME- 4-Year B.Tech. VIII-Semester"
+      },
+      {
+        "subject": "ME-411:Finite Element Method",
+        "type": "ST",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "ME- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "ME-4110:Rapid Design & Manufacturing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2016-17, ODD",
+        "batch": "ME- 5-Year IDD (INDUSTRIAL MANAGEMENT) VII-Semester"
+      },
+      {
+        "subject": "ME-4111:Smart Materials & Systems",
+        "type": "Overload",
+        "credits": "9.00",
+        "semester": "2016-17, ODD",
+        "batch": "ME- 5-Year IDD (INDUSTRIAL MANAGEMENT) VII-Semester"
+      },
+      {
+        "subject": "ME-4113:Computer Integrated Manufacturing systems",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2016-17, ODD",
+        "batch": "ME- 5-Year IDD (INDUSTRIAL MANAGEMENT) VII-Semester"
+      },
+      {
+        "subject": "ME-4110:Rapid Design & Manufacturing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2016-17, ODD",
+        "batch": "ME- 5-Year IDD (PRODUCTION ENGINEERING) VII-Semester"
+      },
+      {
+        "subject": "ME-4111:Smart Materials & Systems",
+        "type": "Overload",
+        "credits": "9.00",
+        "semester": "2016-17, ODD",
+        "batch": "ME- 5-Year IDD (PRODUCTION ENGINEERING) VII-Semester"
+      },
+      {
+        "subject": "ME-4113:Computer Integrated Manufacturing systems",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2016-17, ODD",
+        "batch": "ME- 5-Year IDD (PRODUCTION ENGINEERING) VII-Semester"
+      },
+      {
+        "subject": "ME-4113:Computer Integrated Manufacturing systems",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2016-17, ODD",
+        "batch": "ME- 5-Year IDD (THERMAL AND FLUID ENGINEERING) VII-Semester"
+      },
+      {
+        "subject": "ME-4110:Rapid Design & Manufacturing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2016-17, ODD",
+        "batch": "ME- 5-Year IDD (THERMAL AND FLUID ENGINEERING) VII-Semester"
+      },
+      {
+        "subject": "ME-4111:Smart Materials & Systems",
+        "type": "Overload",
+        "credits": "9.00",
+        "semester": "2016-17, ODD",
+        "batch": "ME- 5-Year IDD (THERMAL AND FLUID ENGINEERING) VII-Semester"
+      },
+      {
+        "subject": "ME-4113:Computer Integrated Manufacturing systems",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2016-17, ODD",
+        "batch": "ME- 5-Year IDD (MACHINE DESIGN) VII-Semester"
+      },
+      {
+        "subject": "ME-4110:Rapid Design & Manufacturing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2016-17, ODD",
+        "batch": "ME- 5-Year IDD (MACHINE DESIGN) VII-Semester"
+      },
+      {
+        "subject": "ME-4111:Smart Materials & Systems",
+        "type": "Overload",
+        "credits": "9.00",
+        "semester": "2016-17, ODD",
+        "batch": "ME- 5-Year IDD (MACHINE DESIGN) VII-Semester"
+      },
+      {
+        "subject": "ME-4111:Smart Materials & Systems",
+        "type": "Overload",
+        "credits": "9.00",
+        "semester": "2016-17, ODD",
+        "batch": "ME- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "ME-4113:Computer Integrated Manufacturing systems",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2016-17, ODD",
+        "batch": "ME- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "ME-4110:Rapid Design & Manufacturing",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2016-17, ODD",
+        "batch": "ME- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "ME-4113A:Engineering Economics and Management",
+        "type": "Compulsory",
+        "credits": "9.00",
+        "semester": "2016-17, ODD",
+        "batch": "BC- 5-Year IDD VII-Semester"
+      }
+    ]
+  },
+  "EC-315": {
+    "code": "EC-315",
+    "name": "Optical Communication Networks",
+    "credits": "9.00",
+    "ltp": "3-0-0",
+    "department": "-",
+    "professor": "Dr. Amritanshu Pandey",
+    "batches": [
+      {
+        "subject": "EC-315:Optical Communication Networks",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "EC-315:Optical Communication Networks",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CE- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "EC-315:Optical Communication Networks",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CE- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "EC-315:Optical Communication Networks",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "ME- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "EC-315:Optical Communication Networks",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "ME- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "EC-315:Optical Communication Networks",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "EE- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "EC-315:Optical Communication Networks",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "EE- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "EC-315:Optical Communication Networks",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CS- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "EC-315:Optical Communication Networks",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CS- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "EC-315:Optical Communication Networks",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MA- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "EC-315:Optical Communication Networks",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "EC-315:Optical Communication Networks",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "EC- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "EC-315:Optical Communication Networks",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CE- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "EC-315:Optical Communication Networks",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CE- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "EC-315:Optical Communication Networks",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "AR- 5-Year B.Arch. VII-Semester"
+      },
+      {
+        "subject": "EC-315:Optical Communication Networks",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "ME- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "EC-315:Optical Communication Networks",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "EE- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "EC-315:Optical Communication Networks",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "EE- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "EC-315:Optical Communication Networks",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CS- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "EC-315:Optical Communication Networks",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "CS- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "EC-315:Optical Communication Networks",
+        "type": "Open Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "MA- 5-Year IDD VII-Semester"
+      }
+    ]
+  },
+  "EE-403": {
+    "code": "EE-403",
+    "name": "Energy Technologies",
+    "credits": "9.00",
+    "ltp": "3-0-0",
+    "department": "Department of Electrical Engineering",
+    "professor": "-",
+    "batches": [
+      {
+        "subject": "EE-403:Energy Technologies",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2026-27, ODD",
+        "batch": "EE- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "EE-403:Energy Technologies",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2026-27, ODD",
+        "batch": "EE- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "EE-403:Energy Technologies",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "EE- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "EE-403:Energy Technologies",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "EE- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "EE-403:Energy Technologies",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "EE-403:Energy Technologies",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "EE- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "EE-403:Energy Technologies",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "EE- 4-Year B.Tech. VII-Semester"
+      },
+      {
+        "subject": "EE-403:Energy Technologies",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "EE-403:Energy Technologies",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "EE-403:Energy Technologies",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "EE-403:Energy Technologies",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "EE-403:Energy Technologies",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "EE-403:Energy Technologies",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "EE-403:Energy Technologies",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "EE-403:Energy Technologies",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      }
+    ]
+  },
+  "EE-404": {
+    "code": "EE-404",
+    "name": "Operations research",
+    "credits": "9.00",
+    "ltp": "3-0-0",
+    "department": "Department of Electrical Engineering",
+    "professor": "Ms. Sobhita Mehar",
+    "batches": [
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2026-27, ODD",
+        "batch": "EE- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "BC- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PH- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MT- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MT- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CH- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "BM- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CR- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CR- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MN- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MN- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "EE- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "MA- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2025-26, ODD",
+        "batch": "PY- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "IITBHU-OE"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "EC- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CE- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CE- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "ME- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "ME- 5-Year IDD III-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "ME- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "EE- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CS- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "CS- 4-Year B.Tech. V-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2024-25, ODD",
+        "batch": "MA- 5-Year IDD V-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2023-24, ODD",
+        "batch": "EE- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2022-23, ODD",
+        "batch": "EE- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2021-22, ODD",
+        "batch": "EE- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2020-21, ODD",
+        "batch": "EE- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2019-20, ODD",
+        "batch": "EE- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2018-19, ODD",
+        "batch": "EE- 5-Year IDD VII-Semester"
+      },
+      {
+        "subject": "EE-404:Operations research",
+        "type": "Department Elective",
+        "credits": "9.00",
+        "semester": "2017-18, ODD",
+        "batch": "EE- 5-Year IDD VII-Semester"
+      }
+    ]
+  }
+};

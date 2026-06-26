@@ -263,8 +263,13 @@ body:not(.dark) .dark-toggle .moon {
   transition: background-color 0.1s ease-in-out;
   cursor: pointer;
 }
-.row:hover {
+.row:hover,
+.row.focused {
   background-color: var(--row-hover);
+}
+.row.focused {
+  outline: 1px solid var(--neutral-600);
+  outline-offset: -1px;
 }
 .row-main {
   display: grid;
@@ -306,13 +311,20 @@ body:not(.dark) .dark-toggle .moon {
 }
 
 .batch-details {
-  overflow: hidden;
-  max-height: 0;
-  transition: max-height 0.25s ease-in-out;
+  display: none;
+  max-height: 300px;
+  overflow-y: auto;
   background: var(--batch-bg);
 }
 .batch-details.open {
-  max-height: 2000px;
+  display: block;
+}
+.batch-details::-webkit-scrollbar {
+  width: 6px;
+}
+.batch-details::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 3px;
 }
 .batch-details-inner {
   padding: 0.5rem 24px 0.75rem;
@@ -486,6 +498,7 @@ const content = document.getElementById("content");
 const courseCount = document.getElementById("course-count");
 
 let expandedIndex = null;
+let focusedRow = 0;
 
 function getTypeClass(type) {
   const t = type.toLowerCase();
@@ -524,10 +537,12 @@ function renderBatchDetails(course) {
   return html;
 }
 
+let filtered = [];
+
 function render() {
   const query = searchInput.value.toLowerCase().trim();
 
-  const filtered = query
+  filtered = query
     ? courseList.filter((c) => {
         const searchStr = `${c.code} ${c.name} ${c.department} ${c.professor}`.toLowerCase();
         return searchStr.includes(query);
@@ -538,8 +553,12 @@ function render() {
 
   if (filtered.length === 0) {
     content.innerHTML = '<div class="no-results">No electives match your search.</div>';
+    focusedRow = 0;
     return;
   }
+
+  if (focusedRow >= filtered.length) focusedRow = filtered.length - 1;
+  if (focusedRow < 0) focusedRow = 0;
 
   const padLen = filtered.length > 99 ? 3 : 2;
 
@@ -547,8 +566,9 @@ function render() {
   for (const c of filtered) {
     const idx = String(c.index).padStart(padLen, "0");
     const isOpen = expandedIndex === c.index;
+    const isFocused = filtered.indexOf(c) === focusedRow;
 
-    html += `<div class="row" data-index="${c.index}">`;
+    html += `<div class="row ${isFocused ? "focused" : ""}" data-index="${c.index}">`;
     html += `  <div class="row-main">`;
     html += `    <div class="row-index"><span>${"0".repeat(3 - String(c.index).length)}</span>${c.index}</div>`;
     html += `    <div class="row-info">`;
@@ -578,7 +598,34 @@ function render() {
 
 searchInput.addEventListener("input", () => {
   expandedIndex = null;
+  focusedRow = 0;
   render();
+});
+
+document.addEventListener("keydown", (e) => {
+  if (e.target.tagName === "INPUT") return;
+
+  if (e.key === "j" || (e.key === "n" && e.ctrlKey)) {
+    e.preventDefault();
+    focusedRow = Math.min(focusedRow + 1, filtered.length - 1);
+    render();
+    const row = content.querySelector(".row.focused");
+    if (row) row.scrollIntoView({ block: "nearest" });
+  } else if (e.key === "k" || (e.key === "p" && e.ctrlKey)) {
+    e.preventDefault();
+    focusedRow = Math.max(focusedRow - 1, 0);
+    render();
+    const row = content.querySelector(".row.focused");
+    if (row) row.scrollIntoView({ block: "nearest" });
+  } else if (e.key === "Enter" || e.key === " ") {
+    if (filtered.length === 0) return;
+    e.preventDefault();
+    const c = filtered[focusedRow];
+    expandedIndex = expandedIndex === c.index ? null : c.index;
+    render();
+    const row = content.querySelector(".row.focused");
+    if (row) row.scrollIntoView({ block: "nearest" });
+  }
 });
 
 render();
