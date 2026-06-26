@@ -495,6 +495,41 @@ body:not(.dark) .dark-toggle .moon {
   }
 }
 
+@media print {
+  body {
+    --bg: #fff !important;
+    background: #fff !important;
+    color: #000 !important;
+  }
+  header h1 { font-size: 1.25rem; }
+  .subhead { display: none; }
+  .header-right p { display: none; }
+  .gh-star { display: none; }
+  .dark-toggle { display: none; }
+  .branch-bar { display: none; }
+  .search-bar { display: none; }
+  .course-count { display: none; }
+  .bottom-bar { display: none; }
+  .toast { display: none; }
+  .grip { display: none !important; }
+  .vote-group { display: none !important; }
+  .vote-btn { display: none !important; }
+  .not-eligible { display: none !important; }
+  .section-header {
+    position: static;
+    background: #fff;
+    border-bottom-color: #ccc;
+    color: #666;
+  }
+  .row { border-bottom-color: #ddd; }
+  .row.liked { border-left-color: #16a34a; }
+  .row.disliked { border-left-color: #eab308; }
+  .row.focused { outline: none; }
+  .row:hover { background: none; }
+  .content { overflow: visible; height: auto; }
+  #root { height: auto; max-height: none; }
+}
+
 @media (max-width: 550px) {
   .row-main {
     font-size: 0.75rem;
@@ -556,6 +591,31 @@ body:not(.dark) .dark-toggle .moon {
 .toast.show {
   opacity: 1;
 }
+
+#root::after {
+  content: "Jayesh-Dev21";
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+  font-size: clamp(1.5rem, 8vw, 5rem);
+  color: var(--neutral-500);
+  opacity: 0.12;
+  pointer-events: none;
+  user-select: none;
+  transform: rotate(-12deg);
+  z-index: 9999;
+  white-space: nowrap;
+  overflow: hidden;
+}
+@media print {
+  #root::after {
+    opacity: 0.08;
+    color: #999;
+  }
+}
   </style>
 </head>
 <body>
@@ -593,10 +653,16 @@ body:not(.dark) .dark-toggle .moon {
     <div class="content" id="content"></div>
     <div class="bottom-bar">
       <span id="pref-count">Drag to rank your preferences</span>
-      <button class="copy-btn" id="copy-btn">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="M15 11h-6"/><path d="M15 7h-6"/><path d="M15 15h-6"/></svg>
-        Copy preference list
-      </button>
+      <div style="display:flex;gap:0.5rem">
+        <button class="copy-btn" id="pdf-btn">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Save PDF
+        </button>
+        <button class="copy-btn" id="copy-btn">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="M15 11h-6"/><path d="M15 7h-6"/><path d="M15 15h-6"/></svg>
+          Copy preference list
+        </button>
+      </div>
     </div>
     <div class="toast" id="toast"></div>
   </div>
@@ -944,6 +1010,11 @@ branchSelect.addEventListener("change", () => {
 searchInput.addEventListener("input", () => {
   focusedRow = 0;
   render();
+});
+
+// ── PDF / Print ──
+document.getElementById("pdf-btn").addEventListener("click", () => {
+  window.print();
 });
 
 // ── Copy ──
