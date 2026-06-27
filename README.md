@@ -2,6 +2,7 @@
 
 Browse open elective preferences for 2026-27 at IIT BHU.
 
+- **Year selector** — switch between 3rd and 4th year open electives
 - **Like / Dislike** — vote with +/- buttons; liked courses sort to top
 - **Drag to reorder** — reorder within liked/neutral/disliked sections using grip handles
 - **Branch filter** — select your department; own-department courses move to "Not eligible" (unless manually liked)
