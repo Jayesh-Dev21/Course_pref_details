@@ -951,6 +951,7 @@ function sortByPrefs() {
 }
 sortByPrefs();
 
+const availablePdfs = new Set(["MCR-304", "PH-323", "PH-411", "BM-311", "CHE-312", "MA-221", "EP-361", "MN-481", "ME-411", "CHO-301", "CSM-521", "CHE-451", "MT-205", "ME-343", "EE-203", "MN-461", "MN-412", "MT-202", "MT-322", "MA-513", "MN-431", "CE-353", "BM-321", "BM-511", "BC-312", "EE-313", "MA-455", "ME-332", "ME-314", "PH-331", "BC-311", "AR-316", "EP-512", "MCR-202", "EE-403", "CE-241", "CHE-331", "BC-201", "MT-312", "PHY-201", "EE-404", "MS-204"]);
 const searchInput = document.getElementById("search");
 const content = document.getElementById("content");
 const courseCount = document.getElementById("course-count");
@@ -980,16 +981,9 @@ function getTypeClass(type) {
 }
 
 function renderBatchDetails(course) {
-  let html = `<div style="margin-bottom: 1rem;">
-    <a href="pdfs/${course.code}.pdf" target="_blank" class="copy-btn" style="text-decoration:none; display:inline-flex;">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-      View Syllabus PDF
-    </a>
-  </div>`;
-  
   const batches = course.batches;
   if (!batches || batches.length === 0) {
-    return html + '<div class="no-batches">No previous batch data available.</div>';
+    return '<div class="no-batches">No previous batch data available.</div>';
   }
   const grouped = {};
   for (const b of batches) {
@@ -998,6 +992,7 @@ function renderBatchDetails(course) {
     grouped[sem].push(b);
   }
   const sortedSems = Object.keys(grouped).sort().reverse();
+  let html = "";
   for (const sem of sortedSems) {
     const group = grouped[sem];
     html += '<div class="sem-group">';
@@ -1096,7 +1091,17 @@ function render() {
       html += `    <div class="row-toggle ${expandedIndex === c.index ? "open" : ""}">`;
       html += `      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>`;
       html += `    </div>`;
+      const hasPdf = availablePdfs.has(c.code);
+      const pdfIcon = hasPdf 
+        ? `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>`
+        : `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"/></svg>`;
+      
+      const pdfLink = hasPdf 
+        ? `<a href="pdfs/${c.code}.pdf" target="_blank" class="vote-btn" title="View Syllabus" style="text-decoration:none; color:inherit;">${pdfIcon}</a>`
+        : `<span class="vote-btn" title="No Syllabus Available" style="color:var(--neutral-400);cursor:not-allowed;opacity:0.5;">${pdfIcon}</span>`;
+
       html += `    <div class="vote-group">`;
+      html += `      ${pdfLink}`;
       html += `      <button class="vote-btn ${liked ? "liked" : ""}" data-vote="like" data-code="${c.code}">+</button>`;
       html += `      <button class="vote-btn ${disliked || notElig ? "disliked" : ""}" data-vote="dislike" data-code="${c.code}">&minus;</button>`;
       html += `    </div>`;
